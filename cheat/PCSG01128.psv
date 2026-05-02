@@ -1,0 +1,34 @@
+# ID: PCSG01128
+# Title: スーパーロボット大戦X
+# Region: JP
+# Version: Unknown
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1538799174 (>>225)
+# Note: Money and TacP write both the current and the cumulative total.
+#       Parts write only the owned count (there is also an unequipped count).
+#       Skill programs write owned count, cumulative total and the obtained flag.
+
+_V0 Money 9000000
+$B200 00000001 00000000
+$4201 00BF0CC0 00895440
+$0002 00000004 00000000
+
+_V0 TacP 9000000
+$B200 00000001 00000000
+$4201 00BF0CD8 00895440
+$0002 00000004 00000000
+
+_V0 Power-up Parts x99
+$B200 00000001 00000000
+$4001 00BF0ED8 00000063
+$005B 00000018 00000000
+
+_V0 Skill Program x99
+$B200 00000001 00000000
+$4201 00BF1AC0 00000063
+$0026 00000018 00000000
+$4201 00BF1AC4 00000063
+$0026 00000018 00000000
+$4201 00BF1AC8 00000100
+$0026 00000018 00000000

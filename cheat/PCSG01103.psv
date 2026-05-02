@@ -1,0 +1,17 @@
+# ID: PCSG01103
+# Title: 塔亰クランプール
+# Region: JP
+# Version: 1.03
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1538799174 (>>977)
+# Note: Reported working on vitacheat Z06 by the original poster only.
+
+_V0 G 999999
+$3201 82799008 0000001C
+$3300 00000000 000F423F
+
+_V0 APP energy 100%
+$3002 8260E0E8 000006C4
+$3000 00000000 00004F44
+$3300 00000000 00000064

@@ -1,0 +1,17 @@
+# ID: PCSG00929
+# Title: フィリスのアトリエ ～不思議な旅の錬金術士～
+# Region: JP
+# Version: 1.08
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1523190571 (>>59)
+# Note: Found with vitacheat z05. The money code may work on change
+#       rather than only on request completion.
+
+_V0 Money Max on request completion
+$B200 00000000 00000000
+$A100 002AD660 0000BF00
+
+_V0 EXP Max after battle
+$B200 00000000 00000000
+$A100 0019ADDE 0000BF00

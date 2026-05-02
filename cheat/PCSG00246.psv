@@ -1,0 +1,61 @@
+# ID: PCSG00246
+# Title: 英雄伝説 碧の軌跡 Evolution
+# Region: JP
+# Version: 1.01
+# Type: Unknown
+# Code Author: Unknown
+# Credits: https://wikiwiki.jp/pvcm/%E3%83%81%E3%83%BC%E3%83%88%E4%B8%80%E8%A6%A7
+# Source: https://github.com/r0ah/vitacheat/blob/master/db/PCSExxxxx.psv
+# Note:
+# 値は終わった任務を報告する度に捜査官ランクが上がるようにすると良いでしょう
+# 上記のコードで効果が無かった場合83DAの部分を83EAにしてみてください
+# ゲームを起動する度に83DAと83EAが交互に変わるみたいです
+
+_V0 Inf Mira
+$0200 83DAA768 05F5E0FF
+
+_V0 Inf Sepith
+$4101 83DAA780 0000270F
+$0007 00000004 00000000
+
+_V0 MAX HP (All Players)
+$4201 83DA6490 0001869F
+$000A 00000034 00000000
+$4201 83DA648C 0001869F
+$000A 00000034 00000000
+
+_V0 Inf EP&CP (All Players)
+$4201 83DA6498 00C80309
+$000A 00000034 00000000
+$4101 83DA6496 00000309
+$000A 00000034 00000000
+
+_V0 Max Level (After Fight)
+$4201 83DA649C 0003F85E
+$000A 00000034 00000000
+
+_V0 Status
+$4101 83DA64A0 0000270F
+$000A 00000034 00000000
+$4101 83DA64A2 0000270F
+$000A 00000034 00000000
+$4101 83DA64A4 0000270F
+$000A 00000034 00000000
+$4101 83DA64A6 0000270F
+$000A 00000034 00000000
+$4101 83DA64A8 0000270F
+$000A 00000034 00000000
+$4101 83DA64AA 0000270F
+$000A 00000034 00000000
+$4101 83DA64AC 00000014
+$000A 00000034 00000000
+$4101 83DA64AE 000003E7
+$000A 00000034 00000000
+
+# 上からSTR・DEF・ATS・ADF・DEX・AGL・MOV・SPD
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 DP
+#$0200 83DAA77C 00000xxx

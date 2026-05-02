@@ -1,0 +1,32 @@
+# ID: PCSG00129
+# Title: さくら荘のペットな彼女
+# Region: JP
+# Version: 1.00
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1610183635 (>>284)
+# Note: "Always peak condition" forces peak condition regardless of
+#       motivation or health, and lets you ignore worries when they occur.
+#       Affection: the intimacy rank only rises if the flag is already set,
+#       and forcing the rank does not set the ending flag - you still need
+#       to trigger the rank-up events yourself. Unlike the PSP version's
+#       codes, motivation/health here change the real values, not just the
+#       display.
+#       The motivation/health values are written as 7 digits in the original
+#       post (000000A); read here as 0000000A (=10). Verify before use.
+
+_V0 Everyone always in peak condition
+$4201 818E5BC0 00000001
+$0006 00000010 00000000
+
+_V0 Everyone's affection MAX
+$4201 818E5C2C 0000FFFF
+$0006 00000018 00000000
+
+_V0 Everyone's motivation MAX
+$4201 818E5C24 0000000A
+$0006 00000018 00000000
+
+_V0 Everyone's health MAX
+$4201 818E5C28 0000000A
+$0006 00000018 00000000

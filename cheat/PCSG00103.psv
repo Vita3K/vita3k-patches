@@ -1,0 +1,18 @@
+# ID: PCSG00103
+# Title: 地球防衛軍3 PORTABLE
+# Region: JP
+# Version: Unknown
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1474109588 (>>834)
+# Note: Hold L+R to apply.
+
+_V1 Weapon 1 ammo 65535 (hold L+R)
+$C202 00000001 00000300
+$3201 82383998 0000038C
+$3300 00000000 0000FFFF
+
+_V1 Weapon 2 ammo 65535 (hold L+R)
+$C202 00000001 00000300
+$3201 82383998 00000964
+$3300 00000000 0000FFFF

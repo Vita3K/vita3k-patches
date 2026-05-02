@@ -1,0 +1,40 @@
+# ID: PCSG00841
+# Title: ダンジョントラベラーズ 2-2
+# Region: JP
+# Version: 1.05
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1647216749 (>>345)
+# Note: EXP multiplier. The displayed gain does not change.
+#       Enable only ONE of the multipliers below.
+#       Multiplier -> value at 0004FE38:
+#         x2 EEB00A00 / x3 EEB00A08 / x4 EEB10A00 / x5 EEB10A04
+#         x10 EEB20A04 / x20 EEB30A04 / x30 EEB30A0E
+
+_V0 EXP x2
+$B200 00000000 00000000
+$A200 0004FE38 EEB00A00
+
+_V0 EXP x3
+$B200 00000000 00000000
+$A200 0004FE38 EEB00A08
+
+_V0 EXP x4
+$B200 00000000 00000000
+$A200 0004FE38 EEB10A00
+
+_V0 EXP x5
+$B200 00000000 00000000
+$A200 0004FE38 EEB10A04
+
+_V0 EXP x10
+$B200 00000000 00000000
+$A200 0004FE38 EEB20A04
+
+_V0 EXP x20
+$B200 00000000 00000000
+$A200 0004FE38 EEB30A04
+
+_V0 EXP x30
+$B200 00000000 00000000
+$A200 0004FE38 EEB30A0E

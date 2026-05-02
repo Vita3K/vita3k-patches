@@ -1,0 +1,45 @@
+# ID: PCSG01223
+# Title: ネルケと伝説の錬金術士たち ～新たな大地のアトリエ～
+# Region: JP
+# Version: Unknown
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1610183635 (>>254)
+# Note: The status codes apply to all characters (0x4C stride, 0x80 entries).
+
+_V0 Time MAX
+$B000 00000001 00000000
+$0000 00091F72 00000000
+
+_V0 Money
+$B200 00000001 00000000
+$0200 00091F44 0098967F
+
+_V0 Population
+$B200 00000001 00000000
+$0200 00091F4C 000F423F
+
+_V0 All chars: Dexterity / Wisdom
+$B200 00000001 00000000
+$4200 00091F7E 03E703E7
+$0080 0000004C 00000000
+
+_V0 All chars: Luck / Speed
+$B200 00000001 00000000
+$4200 00091F82 03E703E7
+$0080 0000004C 00000000
+
+_V0 All chars: HP
+$B200 00000001 00000000
+$4100 00091FA2 000003E7
+$0080 0000004C 00000000
+
+_V0 All chars: Strength / Stamina
+$B200 00000001 00000000
+$4200 00091F7A 03E703E7
+$0080 0000004C 00000000
+
+_V0 All chars: Friendship
+$B200 00000001 00000000
+$4100 000920D0 00000180
+$007C 0000004C 00000000

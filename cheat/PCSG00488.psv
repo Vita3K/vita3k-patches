@@ -1,0 +1,26 @@
+# ID: PCSG00488
+# Title: 英雄伝説 空の軌跡FC Evolution
+# Region: JP
+# Version: 1.02
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1610183635 (>>362)
+# Note: The Mira code was posted in >>354 under the wrong ID (PCSG00404);
+#       >>362 of the same thread gives the correct ID, so it is filed here.
+#       The Mira code is untested by its poster - it was derived by
+#       subtracting the address that seg1+0xEBD8 points to from the target.
+
+_V0 Speed up while holding Circle
+$B200 00000001 00000000
+$3202 0000EBD8 000A7228
+$3200 00000000 00000018
+$3300 00000000 3F800000
+$C203 00000001 00002000
+$3202 0000EBD8 000A7228
+$3200 00000000 00000018
+$3300 00000000 40400000
+
+_V0 Mira MAX
+$B200 00000001 00000000
+$3201 0000EBD8 000A5E58
+$3300 00000000 05F5E0FF

@@ -1,0 +1,19 @@
+# Title: Sword Art Online Hollow Realization
+# ID: PCSE00903
+# Region: US
+# Version: 3.20
+# Type: NoNpDrm
+# Vita-Language: German
+# Reset Game: 2+
+# Code Author: tomberyx
+
+# PCSE00903
+
+_V0 Game Speed 2x [Permanent]
+$B200 00000001 00000000
+$0100 0004C10C 00000000
+
+_V0 Game Speed 2x [hold R]
+$B200 00000001 00000000
+$C201 00000000 00000200
+$0100 0004C10C 00000000

@@ -1,0 +1,140 @@
+# Title: Final Fantasy X HD Remastered
+# ID: PCSB00395 and PCSE00293
+# Region: EUR/USA
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+
+# PCSB00395
+
+_V0 Walk Speed XX Vol.2
+$0000 81FDB737 00000043
+
+_V0 Naruto Walk Player-NPC
+$0200 81FDC6EC 00000001
+
+_V0 Walk Through Walls
+$0200 826268A8 00000001 # after a battle fight
+$A200 8262DD92 00000001
+
+_V0 Game Speed Up
+$0200 81914F10 00000000
+
+_V0 Full control enemies
+$0200 8262DDAA 00000003 # only in first Position
+
+_V0 Full Control Camera Vol.2
+$A000 8262DDAC 00000001
+
+_V0 Unlock all Arena-Monsters
+$4001 8262AAA0 0000000A
+$0097 00000001 00000000
+
+_V0 Unlock Richter [Airship-Boss]
+$0200 82627520 000FFF00
+
+_V0 Instant Load-File Menu
+$0200 826268A0 00000017 # need a Load-Screen
+
+_V0 Instant Destination list
+$0200 826268A0 0000017E # need a Load-Screen
+
+_V0 Instant Music Room
+$0200 826268A0 000000B8 # need a Load-Screen
+
+_V0 Instant Blitzball
+$0200 826268A0 0000003E # need a Load-Screen
+
+_V0 Instant Kill
+$3201 81E1A840 000005D0 # only in first Position
+$3300 00000000 00000000
+
+_V0 Instant Fight
+$A200 8262DD92 00000001
+
+_V0 No random Fight
+$0200 8262DD92 00000000
+
+_V0 Unlock Music [Luca-Music-Room]
+$0000 82626BDF 00000046
+
+_V0 Unlock Video [Luca-Music-Room]
+$0000 82626BE0 00000032
+
+_V0 Enemy will always hit you
+$3201 81E1A840 0000065A
+$3300 00000000 00000000
+
+_V0 Enemy lose 1 HP
+$0200 8262DDBE 00000001
+
+_V0 Enemy is invincible
+$0200 8262DDA8 00000001
+
+_V0 No Power Gauge Enemy
+$3201 81E1A840 000005BC
+$3300 00000000 00000000
+
+_V0 Enemy ist Thin
+$3201 81E1A840 000003A0
+$3300 00000000 00000000
+
+_V0 Enemy is Sitting
+$3201 81E1A840 00000514
+$3300 00000000 00000000
+
+_V0 Weapon Ability change
+$0200 8262AD4A 00000017 # change 17 to XX
+$0200 8262AD4C 00000019 # change 19 to XX
+$0200 8262AD4E 00000056 # change 56 to XX
+$0200 8262AD50 0000007A # change 7A to XX
+
+_V0 Repeat Story Progress
+$4200 82626A00 00000001
+$0D00 00000001 00000000 # recommend not to save
+
+_V0 Strange Behaviour
+$0200 82000CD0 447A0000
+
+_V0 Speed Scroll
+$0200 8200A490 42EA27A4
+$0200 829BF578 435D5D9A
+$0200 829BF580 435D5D9A
+
+_V0 Change Brightness
+$0200 81FDC694 0000F001 # change 0000F00X 1-F
+$0200 81FDC694 FF00F100 # change FF00FX00 1-F
+
+_V0 Always Chocobo[only in Cho.Area]
+$0200 82626B0C 00000001
+
+_V0 Play Seymor in Fight Vol.2
+$0000 8262A5F8 00000007 #change 7 [Recommend not to save]
+
+_V0 Fight against Tidus in Battle
+$3201 81E1A840 00000004
+$3300 00000000 00000001 #change here
+
+_V0 Play X Character in Fight
+$0200 8201BD7C 02020202 # change 0x0x0x0x
+
+_V0 Tombery
+$0200 8262F708 DEAD1816 # only in Arena
+
+_V0 XX Enemy in Fight Alternative
+$0200 8262F706 00000048 #change from 009 to XXX
+
+_V0 XX Enemy in Fight
+$0200 8262DD9C 000002AD #change 2AD to XXX
+
+_V0 Teleport XX
+$0200 826268A0 01140083
+
+_V0 Dummy Room 1 [Test Room]
+$0200 826268A0 00000000 # no way back
+
+_V0 Dummy Room 2 [Test Room]
+$0200 826268A0 000000F0 # no way back
+
+_V0 Play Auron [Test Room]
+$0200 826268A0 000000F0 # no way back

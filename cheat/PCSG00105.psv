@@ -1,0 +1,32 @@
+# ID: PCSG00105
+# Title: イース セルセタの樹海
+# Region: JP
+# Version: 1.02
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1523190571 (>>741)
+# Note: Items become 99 when used, materials become 9999 when obtained,
+#       skills level up when used. Turn the HP code OFF while inside the
+#       Sanctuary of Thunderstorms - being struck by lightning at 9999 HP
+#       stops the Kanrilica event from starting.
+
+_V0 Money MAX
+$A100 810C603C 0000BF00
+
+_V0 SP is not reduced
+$A100 8106193A 0000BF00
+
+_V0 EXTRA slot MAX
+$A100 8107E0DA 0000BF00
+
+_V0 use of items / 99
+$A100 810B886A 00002063
+
+_V0 access to material 999
+$A100 810B8AEA 0000BF00
+
+_V0 HP/STR/DEF 9999
+$A100 8105FB44 0000BF00
+
+_V0 skill quickly upgrade
+$A100 81064280 0000BF00

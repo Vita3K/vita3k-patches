@@ -1,0 +1,31 @@
+# Title: Danjon ni Deai wo Motomeru no wa Machigatteiru Darou ka  Infinite Combate
+# ID: PCSG01002
+# Region: jap
+# Version: 1.02
+# Type: NoNpDrm
+# Code Author: tomberyx
+
+# PCSG01002
+
+_V0 One Hit Kill
+$0100 8526E75C 00001E61
+
+_V0 Faster Attack
+$0000 8526E750 00000000
+
+_V0 Instant all Items
+$4001 8A780E30 00000007
+$001C 00000004 00000000
+$4001 8A780EA8 00000008
+$007E 00000004 00000000
+$4001 8A780CF0 00000001
+$0047 00000004 00000000
+
+_V0 inf.Skill
+$0200 8A780648 00012FD1
+
+_V0 Blue-Crystal x99 [Fight]
+$0200 8526E7E0 00001E61
+
+_V0 inf.Money
+$0200 8A780644 000BDE31

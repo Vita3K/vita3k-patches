@@ -1,0 +1,16 @@
+# ID: PCSB00704
+# Type: Unknown
+# PCSB00704
+# Title: Damascus Gear - Operation Tokyo
+# Region: EUR
+# Code Author: JamSpork
+# Version: 1.00
+
+_V1 Infinite Eyn
+$0200 82FFC10C 3B9ACA00
+
+_V1 99 Repair Kits *USE BOTH CODES*
+$0200 82FFC140 00000063
+
+_V1 99 Repair Kits *USE BOTH CODES*
+$0200 83003328 00000063

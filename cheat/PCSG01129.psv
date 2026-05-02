@@ -1,0 +1,41 @@
+# ID: PCSG01129
+# Title: スーパーロボット大戦X プレミアムアニメソング&サウンドエディション
+# Region: JP
+# Version: 1.04
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1523190571 (>>278)
+# Note: Rewrites the stats of the X Crystal power-up part. The values
+#       below are the poster's example set (attack/HP/EN/armour/movement/
+#       accuracy bonuses, per-turn HP+EN+ammo recovery, flight movement
+#       type, all-terrain S, barrier, special-weapon immunity, critical
+#       and range bonuses, weapon penetration, starting morale and SP
+#       bonuses, double EXP, higher morale cap). Edit the $3300 values to
+#       change the effects.
+
+_V0 X Crystal stat rewrite
+$B200 00000001 00000000
+$3202 000096E4 00000990
+$3000 00000000 000027D0
+$3300 00000000 000008FC
+$3202 000096E4 00000990
+$3000 00000000 000027D4
+$3300 00000000 00961A90
+$3202 000096E4 00000990
+$3000 00000000 000027D8
+$3300 00000000 00C80578
+$3202 000096E4 00000990
+$3000 00000000 000027E0
+$3300 00000000 64000400
+$3202 000096E4 00000990
+$3000 00000000 000027E4
+$3300 00000000 01640A00
+$3202 000096E4 00000990
+$3000 00000000 000027E8
+$3300 00000000 04010601
+$3202 000096E4 00000990
+$3000 00000000 000027EC
+$3300 00000000 01040064
+$3202 000096E4 00000990
+$3000 00000000 000027F0
+$3300 00000000 07030314

@@ -1,0 +1,34 @@
+# ID: PCSG00195
+# Title: 英雄伝説 閃の軌跡
+# Region: JP
+# Version: Unknown
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1474109588 (>>842)
+# Note: For the item codes, replace YYYY and ZZZZ with your own values
+#       (see the tables below each code).
+
+_V0 ALL Sepith 99999
+$4201 81584498 0001869F
+$0008 00000004 00000000
+
+_V0 Mira 9999999
+$5200 815844D8 0098967F
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+# YYYY = 0h for the 1st item, +24h per item; ZZZZ = item ID
+#_V0 Change item ID of the Nth slot
+#$3102 8268A114 000000A4
+#$3100 00000000 0000YYYY
+#$3300 00000000 0000ZZZZ
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+# YYYY = 2h for the 1st item, +24h per item; ZZZZ = quantity
+#_V0 Change item count of the Nth slot
+#$3102 8268A114 000000A4
+#$3100 00000000 0000YYYY
+#$3302 00000000 0000ZZZZ

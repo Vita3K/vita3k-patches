@@ -1,0 +1,42 @@
+# ID: PCSG00793
+# Title: SDガンダム ジージェネレーション ジェネシス
+# Region: JP
+# Version: 1.06
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1581709488 (>>337, >>370)
+# Note: The EXP codes contain a repeat count the poster left unresolved
+#       (marked xxx / yyy); yyy = 660 decimal was reported to break the game.
+#       For "MS unit swap", xxxxxxxx follows the production-list order,
+#       starting at 825FCB64 (Gundam) and +0x60 per unit. Swapped units do
+#       not appear in the encyclopedia or production list. The 2nd slot is
+#       used because the 1st is occupied by the Carry Base.
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 PILOT EXP (set repeat count in place of xxx)
+#$7200 82654D94 0000270F
+#$0xxx 000000B8 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 MS EXP (set repeat count in place of yyy)
+#$7200 8264B5AA 0000270F
+#$0yyy 00000024 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 MS/WS 2nd slot unit swap (set unit value in place of xxxxxxxx)
+#$B200 00000001 00000000
+#$0200 00F4AC88 xxxxxxxx
+
+_V0 Historic Moment (Gundam Rises) - left Zaku I -> Turn A
+$B200 00000001 00000000
+$0200 00F70C30 8260A484
+
+_V0 Historic Moment (Gundam Rises) - right Zaku I -> G-Self
+$B200 00000001 00000000
+$0200 00F70C54 826097C4

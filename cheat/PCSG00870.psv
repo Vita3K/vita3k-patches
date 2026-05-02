@@ -1,0 +1,11 @@
+# ID: PCSG00870
+# Title: ロマンシング サガ2
+# Region: JP
+# Version: 1.02
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1581709488 (>>230)
+# Note: Technique IDs match the SFC version. B8 = Soul Steal.
+
+_V0 Emperor 1st technique -> Soul Steal
+$0000 85BFA544 000000B8

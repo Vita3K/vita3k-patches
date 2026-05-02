@@ -1,0 +1,35 @@
+# ID: PCSG01164
+# Title: 実況パワフルプロ野球2018
+# Region: JP
+# Version: 1.09 / 1.10
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1551175120 (>>231, >>235)
+# Note: The Eikan Nine code is for ver1.09; the two Success codes are
+#       for ver1.10. Do not mix versions.
+
+# ver1.09 - Eikan Nine. SELECT+Up = 80 runs in the top of the 1st
+#           (batting first), SELECT+Down = bottom of the 1st (fielding first).
+_V0 1st inning 80 runs (ver1.09)
+$B200 00000001 00000000
+$D506 001EF8BC 00000000
+$C202 00000001 00000011
+$3201 001EF8BC 00000240
+$3300 00000000 00000050
+$C202 00000001 00000041
+$3201 001EF8BC 000002F4
+$3300 00000000 00000050
+
+_V0 Success: no EXP consumption (ver1.10)
+$B200 00000000 00000000
+$A100 007DE5CA 0000BF00
+$A200 007DE5CC 2100BF00
+
+_V0 Success: all items owned (ver1.10)
+$B200 00000000 00000000
+$A200 00816A46 6000F88A
+$A100 00816A40 0000BF00
+$A200 00816A42 BF002663
+$A200 00848516 BF002C63
+$A100 0084AFA8 0000BF00
+$A100 0084AFD8 0000BF00

@@ -1,0 +1,44 @@
+# ID: PCSG00418
+# Title: 閃乱カグラ ESTIVAL VERSUS -少女達の選択-
+# Region: JP
+# Version: Unknown
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1474109588 (>>926)
+# Note: Found with vitacheat v360 z04 (maidump).
+#       Per-character values advance by +0x10D8 from the Asuka entry.
+#       Scroll and status-ailment addresses shift per stage and per
+#       character, so they must be searched each time: search the value
+#       43FA0000 in the range 84000000-85000000; an address ending in 08
+#       minus 0x10 is the current scroll value and +0x04 is its maximum.
+#       Writing FFFFFFFF at (scroll max + 0x90) gives super armour.
+
+_V0 Money 999999
+$0200 81B3D328 0098967F
+
+_V0 EXP (Asuka) 1 short of max level
+$0200 81B3D338 0016AABB
+
+_V0 Sen (Asuka) near max
+$0200 81B3D340 000255A7
+
+_V0 You (Asuka) near max
+$0200 81B3D344 000255A7
+
+_V0 In (Asuka) near max
+$0200 81B3D348 000255A7
+
+_V0 Sortie ranking (Asuka) 99
+$0200 81B3E40C 00000063
+
+_V0 Boss costume breaks 99
+$0200 81B7B998 00000063
+
+_V0 Wall-run ambush attacks 49
+$0200 81B7B9B8 00000031
+
+_V0 Enemies knocked away with the ball 19
+$0200 81B7B9C0 00000013
+
+_V0 Enemies defeated with ninja balls 19
+$0200 81B7B9C4 00000013

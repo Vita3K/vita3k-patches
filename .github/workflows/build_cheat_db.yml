@@ -1,0 +1,61 @@
+name: Build cheat.db
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+    paths:
+      - 'cheat/**.psv'
+      - '.github/workflows/build_cheat_db.yml'
+  pull_request:
+    paths:
+      - 'cheat/**.psv'
+      - '.github/workflows/build_cheat_db.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Merge PSV files into cheat.db
+        run: |
+          set -euo pipefail
+
+          output="cheat.db"
+          rm -f "$output"
+
+          {
+            echo "########################################"
+            echo ">>>Start Of VitaCheat Database (v0.1)<<<"
+            echo "########################################"
+          } > "$output"
+
+          count=0
+          while IFS= read -r psv; do
+            title="$(basename "$psv" .psv)"
+            echo "Merging: $psv"
+            echo "_S $title" >> "$output"
+            # Drop the UTF-8 BOM and CR, then strip blank and comment lines.
+            sed -e '1s/^\xEF\xBB\xBF//' -e 's/\r$//' "$psv" \
+              | grep -v '^[[:space:]]*$' \
+              | grep -v '^[[:space:]]*#' >> "$output"
+            echo "" >> "$output"
+            count=$((count + 1))
+          done < <(find cheat -name '*.psv' | sort)
+
+          echo "Done. $count file(s) merged, $(wc -l < "$output") lines."
+
+      - name: Upload cheat.db as artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: cheat-db
+          path: cheat.db
+          archive: false

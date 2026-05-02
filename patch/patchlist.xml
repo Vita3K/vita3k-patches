@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Akiba's Trip -->
+	<TitleID>
+		<ID>PCSE00428</ID>
+	</TitleID>
+	<Metadata Title="Akiba's Trip"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x020AB6" Value="0x0120"/>
+			<Line Type="bytes" Address="0x020A7E" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Assassin's Creed III: Liberation -->
+	<TitleID>
+		<ID>PCSB00074</ID>
+		<ID>PCSE00053</ID>
+		<ID>PCSG00116</ID>
+	</TitleID>
+	<Metadata Title="Assassin's Creed III: Liberation"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.02"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0xCBC2" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Call of Duty Black Ops: Declassified -->
+	<TitleID>
+		<ID>PCSB00232</ID>
+		<ID>PCSB00213</ID>
+		<ID>PCSG00135</ID>
+	</TitleID>
+	<Metadata Title="Call of Duty Black Ops: Declassified"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.02"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x176F8A" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Hatsune Miku: Project Diva f -->
+	<TitleID>
+		<ID>PCSB00419</ID>
+		<ID>PCSE00326</ID>
+	</TitleID>
+	<Metadata Title="Hatsune Miku: Project Diva f"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x136C4" Value="0x0120"/>
+			<Line Type="bytes" Address="0x13948" Value="F7EE000A"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSG00074</ID>
+	</TitleID>
+	<Metadata Title="Hatsune Miku: Project Diva f"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.01"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x12582" Value="0x0120"/>
+			<Line Type="bytes" Address="0x12814" Value="F7EE000A"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Hatsune Miku: Project Diva F 2nd -->
+	<TitleID>
+		<ID>PCSB00554</ID>
+		<ID>PCSE00434</ID>
+		<ID>PCSH00088</ID>
+	</TitleID>
+	<Metadata Title="Hatsune Miku: Project Diva F 2nd"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0xA994" Value="0x0120"/>
+			<Line Type="bytes" Address="0xAAF2" Value="F7EE000A"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSG00205</ID>
+	</TitleID>
+	<Metadata Title="Hatsune Miku: Project Diva F 2nd"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.01"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0xA95C" Value="0x0120"/>
+			<Line Type="bytes" Address="0xAABA" Value="F7EE000A"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Hatsune Miku: Project Diva X -->
+	<TitleID>
+		<ID>PCSG00683</ID>
+	</TitleID>
+	<Metadata Title="Hatsune Miku: Project Diva X"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x39240" Value="0x0120"/>
+			<Line Type="bytes" Address="0x3996E" Value="F7EE000A"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- I am Setsuna -->
+	<TitleID>
+		<ID>PCSG00756</ID>
+	</TitleID>
+	<Metadata Title="I am Setsuna"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x186F4" Value="010000E3"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Jak and Daxter: The Precursor Legacy -->
+	<TitleID>
+		<ID>PCSF00248</ID>
+		<ID>PCSA00080</ID>
+	</TitleID>
+	<Metadata Title="Jak and Daxter: The Precursor Legacy"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1BA2E" Value="0x0021"/>
+			<Line Type="bytes" Address="0x1B4B8" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSF00247</ID>
+	</TitleID>
+	<Metadata Title="Jak and Daxter: The Precursor Legacy"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="Jak1.self"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1BA2E" Value="0x0021"/>
+			<Line Type="bytes" Address="0x1B4B8" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSA00080</ID>
+	</TitleID>
+	<Metadata Title="Jak and Daxter: The Precursor Legacy"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="Jak1.self"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1BA2E" Value="0x0021"/>
+			<Line Type="bytes" Address="0x1B4B8" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Kidou Senshi Gundam Seed: Battle Destiny -->
+	<TitleID>
+		<ID>PCSG00040</ID>
+	</TitleID>
+	<Metadata Title="Kidou Senshi Gundam Seed: Battle Destiny"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.01"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x72189C" Value="a1_mov(0, 0, 1)"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Mahouka Koukou no Rettousei: Out of Order -->
+	<TitleID>
+		<ID>PCSG00456</ID>
+	</TitleID>
+	<Metadata Title="Mahouka Koukou no Rettousei: Out of Order"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.02"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x3225CA" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Miracle Girls Festival -->
+	<TitleID>
+		<ID>PCSG00610</ID>
+	</TitleID>
+	<Metadata Title="Miracle Girls Festival"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x4E384" Value="0x0120"/>
+			<Line Type="bytes" Address="0x4E4E0" Value="F7EE000A"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Persona 3 Dancing -->
+	<TitleID>
+		<ID>PCSE01274</ID>
+	</TitleID>
+	<Metadata Title="Persona 3 Dancing"
+						Name="Auto play"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x11BD70" Value="0x00BF"/>
+		</PatchList>
+	</Metadata>
+	<Metadata Title="Persona 3 Dancing"
+						Name="Intro skip"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1980F2" Value="0x00BF"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Persona 4 Dancing -->
+	<TitleID>
+		<ID>PCSE00764</ID>
+	</TitleID>
+	<Metadata Title="Persona 4 Dancing"
+						Name="Auto play"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.01"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0xA9A0C" Value="0x00BF"/>
+		</PatchList>
+	</Metadata>
+	<Metadata Title="Persona 4 Dancing"
+						Name="Intro skip"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.01"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x126F04" Value="0x00BF"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Persona 5 Dancing -->
+	<TitleID>
+		<ID>PCSE01275</ID>
+	</TitleID>
+	<Metadata Title="Persona 5 Dancing"
+						Name="Auto play"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x11E910" Value="0x00BF"/>
+		</PatchList>
+	</Metadata>
+	<Metadata Title="Persona 5 Dancing"
+						Name="Intro skip"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x19BC66" Value="0x00BF"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Persona 4 Golden -->
+	<TitleID>
+		<ID>PCSB00245</ID>
+		<ID>PCSE00120</ID>
+	</TitleID>
+	<Metadata Title="Persona 4 Golden"
+						Name="Skip intro"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x243C40" Value="0x00BF"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSG00563</ID>
+	</TitleID>
+	<Metadata Title="Persona 4 Golden"
+						Name="Skip intro"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x243E94" Value="0x00BF"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Projectroot -->
+	<TitleID>
+		<ID>PCSB00650</ID>
+		<ID>PCSE00486</ID>
+	</TitleID>
+	<Metadata Title="Projectroot"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x11745C" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSG00783</ID>
+	</TitleID>
+	<Metadata Title="Projectroot"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1175DC" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Puella Magi Madoka Magica: The Battle Pentagram -->
+	<TitleID>
+		<ID>PCSG00214</ID>
+	</TitleID>
+	<Metadata Title="Puella Magi Madoka Magica: The Battle Pentagram"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x65EE34" Value="a1_mov(0, 0, 1)"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Sly Cooper and the Thievius Raccoonus (EU) -->
+	<TitleID>
+		<ID>PCSF00269</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper and the Thievius Raccoonus"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x10C04C" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSF00338</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper and the Thievius Raccoonus"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="Sly1.self"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x10C04C" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Sly Cooper and the Thievius Raccoonus (US) -->
+	<TitleID>
+		<ID>PCSA00096</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper and the Thievius Raccoonus"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x10C04C" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSA00095</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper and the Thievius Raccoonus"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="Sly1.self"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x10C104" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Sly Cooper 2: Band of Thieves (EU) -->
+	<TitleID>
+		<ID>PCSF00270</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper 2: Band of Thieves"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x12E63C" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSF00338</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper 2: Band of Thieves"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="Sly2.self"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x12E63C" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Sly Cooper 2: Band of Thieves (US) -->
+	<TitleID>
+		<ID>PCSA00097</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper 2: Band of Thieves"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x12E638" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSA00095</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper 2: Band of Thieves"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="Sly2.self"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x12E638" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Sly Cooper 3: Honor Among Thieves (EU) -->
+	<TitleID>
+		<ID>PCSF00271</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper 3: Honor Among Thieves"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1822EC" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Sly Cooper 3: Honor Among Thieves (US) -->
+	<TitleID>
+		<ID>PCSA00098</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper 3: Honor Among Thieves"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1822E8" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Sly Cooper: Thieves in Time (EU) -->
+	<TitleID>
+		<ID>PCSF00156</ID>
+		<ID>PCSF00206</ID>
+		<ID>PCSF00207</ID>
+		<ID>PCSF00208</ID>
+		<ID>PCSF00209</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper: Thieves in Time"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.01"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x3228AC" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Sly Cooper: Thieves in Time (US) -->
+	<TitleID>
+		<ID>PCSA00068</ID>
+	</TitleID>
+	<Metadata Title="Sly Cooper: Thieves in Time"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.01"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x3228E4" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Ukiyo no Nushi -->
+	<TitleID>
+		<ID>PCSG00480</ID>
+	</TitleID>
+	<Metadata Title="Ukiyo no Nushi"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x2CD960" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Wipeout 2048 -->
+	<TitleID>
+		<ID>PCSF00007</ID>
+		<ID>PCSA00015</ID>
+	</TitleID>
+	<Metadata Title="Wipeout 2048"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.04"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x2F5D06" Value="FCF022E8 12E0"/>
+			<Line Type="bytes" Address="0x2F5D46" Value="8042"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSC00006</ID>
+		<ID>PCSD00005</ID>
+	</TitleID>
+	<Metadata Title="Wipeout 2048"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.04"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x2F5D0A" Value="FCF022E8 12E0"/>
+			<Line Type="bytes" Address="0x2F5D4A" Value="8042"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Ys VIII: Lacrimosa of Dana (EU/US) -->
+	<TitleID>
+		<ID>PCSB01128</ID>
+		<ID>PCSE01103</ID>
+	</TitleID>
+	<Metadata Title="Ys VIII: Lacrimosa of Dana"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.02"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x289620" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Ys VIII: Lacrimosa of Dana (JP) -->
+	<TitleID>
+		<ID>PCSG00881</ID>
+	</TitleID>
+	<Metadata Title="Ys VIII: Lacrimosa of Dana"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.02"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x285FD0" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Ys VIII: Lacrimosa of Dana (ASIA) -->
+	<TitleID>
+		<ID>PCSH00297</ID>
+	</TitleID>
+	<Metadata Title="Ys VIII: Lacrimosa of Dana"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.02"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x285834" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Oddworld: Munch's Oddysee HD -->
+	<TitleID>
+		<ID>PCSB00275</ID>
+		<ID>PCSE00369</ID>
+	</TitleID>
+	<Metadata Title="Oddworld: Munch's Oddysee HD"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.02"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x10ECEE" Value="t1_mov(1, 4 - 1)"/>
+			<Line Type="bytes" Address="0x269490" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Senran Kagura Bon Appetit -->
+	<TitleID>
+		<ID>PCSE00471</ID>
+	</TitleID>
+	<Metadata Title="Senran Kagura Bon Appetit"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x112674" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSG00310</ID>
+	</TitleID>
+	<Metadata Title="Senran Kagura Bon Appetit"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x0F8614" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSG00311</ID>
+	</TitleID>
+	<Metadata Title="Senran Kagura Bon Appetit"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1025DC" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Spy Hunter (EU) -->
+	<TitleID>
+		<ID>PCSB00166</ID>
+	</TitleID>
+	<Metadata Title="Spy Hunter"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0xE921E" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Spy Hunter (US) -->
+	<TitleID>
+		<ID>PCSE00068</ID>
+	</TitleID>
+	<Metadata Title="Spy Hunter"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0xE91DA" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Sword Art Online: Hollow Fragment -->
+	<TitleID>
+		<ID>PCSH00070</ID>
+	</TitleID>
+	<Metadata Title="Sword Art Online: Hollow Fragment"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.04"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x03BBF2" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSG00294</ID>
+	</TitleID>
+	<Metadata Title="Sword Art Online: Hollow Fragment"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.07"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x03A048" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSE00465</ID>
+		<ID>PCSB00618</ID>
+	</TitleID>
+	<Metadata Title="Sword Art Online: Hollow Fragment"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.02"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x03BBE2" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Secret of Mana -->
+	<TitleID>
+		<ID>PCSG01121</ID>
+	</TitleID>
+	<Metadata Title="Secret of Mana"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.03"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x3B8C38" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+	<TitleID>
+		<ID>PCSE01153</ID>
+		<ID>PCSB01163</ID>
+	</TitleID>
+	<Metadata Title="Secret of Mana"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.03"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x3B8C38" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Ys Origin (EU/US) -->
+	<TitleID>
+		<ID>PCSB01081</ID>
+		<ID>PCSE01033</ID>
+	</TitleID>
+	<Metadata Title="Ys Origin"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.02"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1C8216" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Ys Origin (ASIA) -->
+	<TitleID>
+		<ID>PCSH10049</ID>
+	</TitleID>
+	<Metadata Title="Ys Origin"
+						Name="60FPS"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x1C9092" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+</Patch>

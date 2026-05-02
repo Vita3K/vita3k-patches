@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+*.psv text eol=lf
+*.xml text eol=lf
