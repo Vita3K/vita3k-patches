@@ -323,3 +323,24 @@ $0200 82004678 3D010640
 
 _V0 BL V
 $0200 82004694 3D010640
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9272322
+
+_V0 Mega Jump 1
+$0000 81D5E006 00000000
+
+_V0 Titan Size
+$A200 81D5FE2B 80000040
+
+_V0 Kill Yourself
+$0200 81E37BB6 08A00000
+
+_V0 No Belly
+$0000 81D5FE94 00000001
+
+_V0 Climb to Moon [ON-L OFF-R]
+$C201 00000001 00000100
+$0100 81D5FE40 0000000F
+$C201 00000001 00000200
+$0100 81D5FE40 0000000E

@@ -1,0 +1,23 @@
+# Title: BigFest
+# ID: PCSF00351
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10245197
+
+# PCSF00351
+
+_V0 inf.max Money
+$B200 00000001 0000BABE
+$0200 00530E7C 0076ADF1
+
+_V0 inf.max VIP
+$B200 00000001 0000BABE
+$0200 00C98CB0 00001E61
+
+_V0 max.Level
+$B200 00000001 0000BABE
+$0100 00BB7A9C 000061A8

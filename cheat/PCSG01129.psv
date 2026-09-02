@@ -39,3 +39,91 @@ $3300 00000000 01040064
 $3202 000096E4 00000990
 $3000 00000000 000027F0
 $3300 00000000 07030314
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9537028
+
+_V0 MN
+$3201 824FEF90 00000000
+$3300 00000000 0098967F
+
+_V0 TacP
+$3201 824FEF90 00000018
+$3300 00000000 0098967F
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 GRADE
+#$3201 824FEF90 00000140
+#$3300 00000000 00000000 < change value
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 SR
+#$3201 824FEF90 000000DC
+#$3300 00000000 00000000 < change value
+
+_V0 upgrade 10
+$3201 824FEF90 000000DE
+$3300 00000000 00000000
+
+_V0 upgrade 15
+$3201 824FEF90 000000DE
+$3300 00000000 00000001
+
+_V0 ALL SKILL
+$7201 824FEF90 00000E00
+$7701 00000000 00000060
+$0026 00000018 00000000
+$7201 824FEF90 00000E04
+$7701 00000000 00000060
+$0026 00000018 00000000
+$7201 824FEF90 00000E09
+$7701 00000000 00000001
+$0026 00000018 00000000
+
+_V0 ALL PART
+$7001 824FEF90 00000218
+$7701 00000000 00000060
+$005B 00000018 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 KILL
+#$7101 82602228 000B127E
+#$7701 00000000 00000063 < change value
+#$01A8 000001F8 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 EXP
+#$7101 82602228 000B127C
+#$7701 00000000 00000000 < change value
+#$01A8 000001F8 00000000
+
+_V0 All spirit lv1
+$7101 82602228 000B128F
+$7701 00000000 00000001
+$01A8 000001F8 00000000
+$7101 82602228 000B1297
+$7701 00000000 00000001
+$01A8 000001F8 00000000
+$7101 82602228 000B129F
+$7701 00000000 00000001
+$01A8 000001F8 00000000
+$7101 82602228 000B12A7
+$7701 00000000 00000001
+$01A8 000001F8 00000000
+$7101 82602228 000B12AF
+$7701 00000000 00000001
+$01A8 000001F8 00000000
+$7101 82602228 000B12B7
+$7701 00000000 00000001
+$01A8 000001F8 00000000
+$7101 82602228 000B12BF
+$7701 00000000 00000001
+$01A8 000001F8 00000000

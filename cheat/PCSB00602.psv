@@ -12,3 +12,26 @@
 _V0 Game Speed 2x [Permanent]
 $B200 00000001 00000000
 $0100 00233DF4 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10617283
+
+_V0 Always Win
+$B200 00000001 0000BABE
+$0200 0016BF00 43480000
+$0200 0016BF04 43480000
+$0200 0016BF08 43480000
+
+_V0 max.Power
+$B200 00000001 0000BABE
+$0200 00173F50 411B33B1
+
+_V0 max.Combo [push R]
+$B200 00000001 0000BABE
+$C201 00000001 00000200
+$0200 0016BF3C 00000309
+
+_V0 Game Speed 2x [Permanent] [hold Select]
+$B200 00000001 0000BABE
+$C201 00000001 00000001
+$0100 00233DF4 00000000

@@ -1,0 +1,17 @@
+# Title: Sid Meier's Civilization Revolution 2+
+# ID: PCSE00672
+# Region: US
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10332556
+
+# PCSE00672
+
+_V0 inf.max Money
+$B200 00000001 0000BABE
+$3202 000CCC0C 00001364
+$0000 00000000 00000FE8
+$0000 00000000 00012FD1

@@ -1,0 +1,31 @@
+# Title: Spy Hunter
+# ID: PCSB00166
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10552029
+
+# PCSB00166
+
+_V0 inf.max Money
+$B200 00000001 0000BABE
+$0200 0000C2FC 000186A0
+
+_V0 inf.Ammo [Blender]
+$B200 00000001 0000BABE
+$3002 0000BD7C 000000F8
+$0000 00000000 00000080
+$0000 00000000 00000007
+
+_V0 inf.HP A [Not stable Code]
+$B200 00000001 0000BABE
+$3201 00000260 00000420
+$0000 00000000 437A0000
+
+_V0 inf.HP B [Not stable Code]
+$B200 00000001 0000BABE
+$3201 00000260 000000C0
+$0000 00000000 43C80000

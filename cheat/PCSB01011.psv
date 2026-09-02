@@ -169,3 +169,12 @@ $0000 82ADEAC0 00000001
 _V0 Unlock full Music
 $0200 82ADEB40 FFFFFFFF
 $0200 82ADEB44 FFFFFFFF
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10217253
+
+_V0 Hold X to Fly [test Code Z]
+$C201 00000001 00004000
+$3202 82955C5C 00000008
+$0000 00000000 000023C4
+$0000 00000000 41B0BABE

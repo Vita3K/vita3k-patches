@@ -1,0 +1,27 @@
+# Title: Legend of the Skyfish
+# ID: PCSB01392
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10390908
+
+# PCSB01392
+
+_V0 Untouchable
+$B200 00000001 0000BABE
+$3004 000277CC 00000000
+$0000 00000000 000004F0
+$0000 00000000 FFFFFF88
+$0000 00000000 000000CC
+$0000 00000000 00000001
+
+_V0 inf.max HP
+$B200 00000001 0000BABE
+$3004 000277CC 00000000
+$0000 00000000 000004F0
+$0000 00000000 FFFFFF88
+$0000 00000000 00000034
+$0000 00000000 00000004

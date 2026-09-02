@@ -1,0 +1,69 @@
+# Title: Danganronpa Another Episode: Ultra Despair Girls
+# ID: PCSE00692
+# Region: USA
+# Version: 1.0
+# Type: NoNpDrm
+# Code Author: Unknown
+# Note 1: Disable cheat before saving to avoid game crash.
+# Note 2: Only Move (Activate) & Detect (Reveal) at ∞.
+# Note 3: Instant Unlock A Piggy Bank & A Vault Trophy (In-games).
+# Note 4: For Extra Menu Only (After Beat the Game).
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8738487
+
+# PCSE00692
+
+_V0 Komaru's Health (Heart)
+$3001 815FFCB0 000C47BA
+$3300 00000000 00000006
+
+_V0 Unlock All Truth Bullets (x∞)
+$3101 815FFCB0 000C47C0 # Break (Breakdown)
+$3300 00000000 0000FFFE
+$3101 815FFCB0 000C47C2 # Burn (Combustion)
+$3300 00000000 0000FFFE
+$3101 815FFCB0 000C47C4 # Paralyze (Paralysis)
+$3300 00000000 0000FFFE
+$3101 815FFCB0 000C47C6 # Knockback (Repulsion)
+$3300 00000000 0000FFFE
+$3101 815FFCB0 000C47C8 # Dance (Dance-off)
+$3300 00000000 0000FFFE
+$3101 815FFCB0 000C47CA # Link (Hacking)
+$3300 00000000 0000FFFE
+$3101 815FFCB0 000C47CC # Move (Activate)
+$3300 00000000 0000FFFE
+$3101 815FFCB0 000C47CE # Detect (Reveal)
+$3300 00000000 0000FFFE
+
+_V0 Truth Bullets Ammo + Unlock (x999) # Note 2
+$3101 815FFCB0 000C47C0 # Break (Breakdown)
+$3300 00000000 000003E7
+$3101 815FFCB0 000C47C2 # Burn (Combustion)
+$3300 00000000 000003E7
+$3101 815FFCB0 000C47C4 # Paralyze (Paralysis)
+$3300 00000000 000003E7
+$3101 815FFCB0 000C47C6 # Knockback (Repulsion)
+$3300 00000000 000003E7
+$3101 815FFCB0 000C47C8 # Dance (Dance-off)
+$3300 00000000 000003E7
+$3101 815FFCB0 000C47CA # Link (Hacking)
+$3300 00000000 000003E7
+$3101 815FFCB0 000C47CC # Move (Activate)
+$3300 00000000 0000FFFE
+$3101 815FFCB0 000C47CE # Detect (Reveal)
+$3300 00000000 0000FFFE
+
+_V0 Genocide Jack's Battery Gauge
+$3201 815FFCB0 000C4820
+$3300 00000000 42C80000
+
+_V0 Genoside Jack's Lust Gauge (Fever + Scissors)
+$3001 815FFCB0 000C4824
+$3300 00000000 00640006
+
+_V0 Monocoins (x10000) # Note 3
+$3201 815FFCB0 000C4830
+$3300 00000000 00002710
+
+_V0 Monocoins Extra (x10000) # Note 4
+$3201 81600118 000B8724
+$3300 00000000 00002710

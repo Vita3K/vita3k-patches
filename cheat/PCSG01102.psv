@@ -414,3 +414,44 @@ $0000 00000000 00000000
 
 _V0 Do not activate codes permanent.
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9212704
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9345093
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9458647
+
+_V0 Game Speed 2x [hold R]
+$B200 00000001 00000000
+$C201 00000000 00000200
+$0100 000B62A0 00000000
+
+_V0 Inf.Max Money
+$0200 8F3ACD74 3B9AC9FF
+$0200 8F4ACD74 3B9AC9FF
+
+_V0 99 Inf.Item in Battle
+$4001 8F4C1B18 00000063
+$0007 00000002 00000000
+$4001 8F5C1B18 00000063
+$0007 00000000 00000000
+
+_V0 Always 99 Subjugate Titan
+$4001 8F5C3E64 00000063
+$0002 00000004 00000000
+
+_V0 Always 999 Materials in shop(isn't completed)
+$4101 8F4DEE48 000003E7
+$0056 00000090 00000000
+
+_V0 Always 99 Wings of Freedom(right corner up intermission screen)
+$0000 8F4EE8EE 00000063
+
+_V0 99 Inf.Item in Battle
+$4001 8F4C1B18 00000063
+$0020 00000002 00000000
+$4001 8F5C1B18 00000063
+$0020 00000000 00000000
+
+_V0 Always 999 Materials in shop
+$4101 8F4DEE18 000003E7
+$007A 00000030 00000000

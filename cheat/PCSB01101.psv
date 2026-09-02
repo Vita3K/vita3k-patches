@@ -23,3 +23,37 @@ $0096 00000050 00000000
 _V0 inf.max.Items Storage
 $4001 84E2EB98 0000004D
 $03E7 00000050 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9886250
+
+_V0 inf.Yrd           Y
+$0200 83357D24 0076ADF1
+
+_V0 inf.Yrd           Z
+$0200 83157D24 0076ADF1
+
+_V0 ---------------
+$0000 00000000 00000000
+
+_V0 inf.BP            Y
+$0200 83357D28 0076ADF1
+
+_V0 inf.BP            Z
+$0200 83157D28 0076ADF1
+
+_V0 inf.max.Item Inventory Y
+$4001 84F5B278 00000063
+$0096 00000050 00000000
+
+_V0 inf.max.Item Inventory Z
+$4001 84D5B278 00000063
+$0096 00000050 00000000
+
+_V0 inf.max.Items Storage Y
+$4001 84F2EB98 0000004D
+$03E7 00000050 00000000
+
+_V0 inf.max.Items Storage Z
+$4001 84D2EB98 0000004D
+$03E7 00000050 00000000

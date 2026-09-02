@@ -315,3 +315,15 @@ $5200 007642F8 00760CF8
 $5200 007642FC 00760CFC
 $5200 00764300 00760D00
 $5200 00764304 00760D04
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8937034
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9020929
+
+_V0 Infinite Dispatch
+$B200 00000001 00000000
+$0000 007DC249 00000063
+
+_V0 Start of Mao Equipped Slot 1
+$B200 00000001 00000000
+$0000 00697D00 00000000

@@ -1,0 +1,31 @@
+# Title: LEGO Star Wars The Force Awakens
+# ID: PCSB00877
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10444456
+
+# PCSB00877
+
+_V0 Hold X to Fly
+$B200 00000001 0000BABE
+$C201 00000001 00004000
+$3201 0000F0C0 00000380
+$0000 00000000 BE000000
+
+_V0 inf.max HP
+$B200 00000001 0000BABE
+$3001 0000F0C0 0000012C
+$0000 00000000 000000C8
+
+_V0 Walk Speed 2x
+$B200 00000001 0000BABE
+$3201 0000F0C0 00000138
+$0000 00000000 41A00000
+
+_V0 max.Studs
+$B200 00000001 0000BABE
+$0200 0002AFC8 0076ADF1

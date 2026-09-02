@@ -10,3 +10,15 @@
 _V0 GP使用不减//Inf GP
 $A200 81311A60 E1A00000
 $A200 81311CCC E1A00000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9756361
+
+_V0 Inf.Max TP
+$0200 82C48884 0098967F
+
+_V0 Inf.Max GP
+$0200 82C489A4 0098967F
+
+_V0 Inf.Time+Freeze Enemies
+$0200 82BF28BC 44160000

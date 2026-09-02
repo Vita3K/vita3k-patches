@@ -18,3 +18,28 @@ $3203 8277F560 000000D4
 $0000 00000000 00000004
 $0000 00000000 00000008
 $0000 00000000 00012FD1
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9615988
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9616188
+
+_V0 ammo press r
+$C202 00000001 00000200
+$3202 8277F574 00000A60
+$3200 00000000 00000008
+$3300 00000000 00000106
+
+_V0 hearts
+$B200 00000001 00000000
+$0200 00399B4C 00000003
+
+_V0 life
+$B200 00000001 00000000
+$0200 00BB830C 00000014
+
+_V0 number hourglass
+$B200 00000001 00000000
+$0200 00399B5C 00000002
+
+_V0 -Note- press r and deactivate
+$0000 00000000 00000000

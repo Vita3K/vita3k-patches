@@ -1,0 +1,18 @@
+# Title: JET SET RADIO
+# ID: PCSE00088
+# Region: US
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Unknown
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9445281
+
+# PCSE00088
+
+_V0 TIME
+$0200 826AA800 00008C67
+$3201 826A3F18 000003C8
+$3300 00000000 00000012
+
+_V0 LIFE
+$3201 826A3F18 000008B8
+$3300 00000000 00000063

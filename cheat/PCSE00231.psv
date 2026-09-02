@@ -50,3 +50,18 @@ $0200 8181C944 00000067
 _V0 Notes:
 
 _V0 #1: These are modifier cheat. See Wiki for details.
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8577003
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Current Day Modifier
+#$0200 817ED76C 000000xx
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Item Modifier (1st Slot Basket)
+#$0200 8181C92C 000000xx

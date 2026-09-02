@@ -86,3 +86,11 @@ $0000 00000000 00000000
 $B200 00000001 00000000
 $3001 00040EA4 00000574
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9895011
+
+_V0 inf.Balls [everywhere] Experimental Code
+$B200 00000001 00000000
+$3001 00040EA4 00000580
+$0000 00000000 00000007

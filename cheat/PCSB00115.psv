@@ -147,3 +147,11 @@ $0000 0010DA5E 00000000
 $B200 00000001 00000000
 $C201 00000001 00000001
 $0000 0010DA5E 00000001
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9212704
+
+_V0 Game Speed 3x [hold R]
+$B200 00000001 00000000
+$C201 00000000 00000200
+$0200 000E9690 00000000

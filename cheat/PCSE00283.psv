@@ -162,3 +162,25 @@ $0000 82587122 00000063 #SHT
 $0000 82587123 00000063 #BLK
 $0000 8258711E 000000FF #RNG
 $0000 82587125 000000FF #REC
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8987220
+
+_V0 Walk Speed Up
+$0000 81DBBF37 00000043
+
+_V0 Game Speed Up [sometimes bugy]
+$0000 81A81323 00000000
+$0000 82085620 00000001
+
+_V0 Instant Fight
+$0200 81DDF808 00000000
+
+_V0 Teleport to XX  [021-XXX]
+$0200 82585950 000000CE #change 0CE
+
+_V0 Zoom IN-OUT [only for adults]
+$0200 82712632 00004300 #change 300
+
+_V0 Instand Destination list [Ship]
+$0200 82585950 00F4011D

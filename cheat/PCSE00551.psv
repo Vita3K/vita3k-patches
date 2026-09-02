@@ -26,3 +26,11 @@ $3203 827D9028 0000000C
 $0000 00000000 00000034
 $0000 00000000 00000018
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9948994
+
+_V0 Max Money
+$B200 00000000 00000000
+$3201 00604718 00000057
+$3300 00000000 FFFFFFFF

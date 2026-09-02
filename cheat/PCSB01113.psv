@@ -21,3 +21,13 @@ $0100 000039E4 00000000
 _V0 0 Deads
 $B200 00000001 00000000
 $0000 0000140C 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10354148
+
+_V0 Hold X to Fly
+$B200 00000001 0000BABE
+$C202 00000001 00004000
+$3202 0000141C 00000034
+$0000 00000000 00000008
+$0000 00000000 C3400000

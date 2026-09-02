@@ -281,3 +281,13 @@ $0000 00000000 00000000
 
 _V0 Do not activate codes permanent.
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9647528
+
+_V0 max.Nitro [push R]
+$C201 00000001 00000200
+$3203 852CFEC8 00000080
+$0000 00000000 00000068
+$0000 00000000 00000010
+$0000 00000000 0000004D

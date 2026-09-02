@@ -83,3 +83,22 @@ _V0 Notes:
 _V0 May require DLC installed
 
 _V0 #1: These are modifier cheat. See Wiki for details.
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8665781
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8666281
+
+_V0 Dev pt edt
+$0200 8196F6A0 0000014B
+
+_V0 Item 2 Editor
+$0200 8193E7B4 0000008C
+
+_V0 Item 3 Editor
+$0200 8193E7E4 0000008C
+
+_V0 Item 4 Editor
+$0200 8193E814 0000008C
+
+_V0 Item 5 Editor
+$0200 8193E844 0000008C

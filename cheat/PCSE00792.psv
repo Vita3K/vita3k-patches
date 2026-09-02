@@ -44,3 +44,25 @@ $A100 816A3B4A 00001E1A
 
 _V0 More Pts After buy//买卖后更多Pts (v1.00)
 $A200 81B96B1A 72D8F8C0
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8970296
+
+_V0 God Mode//上帝模式 (v1.11)
+$A100 8199A79E 0000BF00
+
+_V0 Inf Power//无限能量 (v1.11)
+$A200 81550CA0 0A61EDD0
+$A200 81550CB0 0A62EDC0
+
+_V0 Inf Life//无限生命 (v1.11)
+$A100 81959040 00003800
+
+_V0 More Score//更多得分 (v1.11)
+$A100 81952FB8 0000BF00
+
+_V0 Inf Shield//无限护罩 (v1.11)
+$A100 8199A1B2 00001E1A
+
+_V0 More Pts After buy//买卖后更多Pts (v1.11)
+$A200 81EA9438 72D8F8C0

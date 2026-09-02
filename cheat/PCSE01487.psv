@@ -18,3 +18,22 @@ $0200 82CB2C85 0000007F
 
 _V0 inf.Lives and Ammo
 $0200 82CB2C8E 99000090
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10196684
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9216925
+
+_V0 inf.HP
+$0000 82CB2C85 0000007F
+
+_V0 --Alternative Codes below--
+$0000 00000000 00000000
+
+_V0 Invincible
+$0000 82BB2C7B 0000004B
+
+_V0 inf.HP
+$0200 82BB2C85 0000007F
+
+_V0 inf.Lives & Ammo
+$0200 82BB2C8E 99000090

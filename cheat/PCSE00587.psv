@@ -14,3 +14,12 @@ $3300 00000000 00989676
 _V0 Inf Health
 $3201 00000000 00000000
 $3300 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10095899
+
+_V0 Infinite Studs
+$B200 00000001 00000000
+$3202 00005BA0 00000F88
+$0000 00000000 00000230
+$0000 00000000 0076ADF1

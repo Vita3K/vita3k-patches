@@ -74,3 +74,39 @@ $0000 8162178A 00000031
 
 _V0 Not Sure what it does
 $0000 87AE3918 00000003
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9360480
+
+_V0 Max Money(both mode)
+$0200 81621EF8 05F5E0FF
+
+_V0 Pilot Level Max(both mode)
+$0200 8162178C 00065324
+
+_V0 Inf.Materials(both mode)
+$4101 816216F0 000003E7
+$0008 00000002 00000000
+
+_V0 9999 Enemies Kills(during stage both mode)
+$0100 8137BDCA 0000270F
+
+_V0 9999 Enemies Kills(score screen both mode)
+$4101 81621744 0000270F
+$0003 00000004 00000000
+
+_V0 Inf.Boost(both mode)
+$0200 87AE2C5C 46802000
+$0200 87BC101C 46802000
+
+_V0 Inf.HP(both mode)
+$0200 87AE2BF4 00007530
+$0200 87BC0FB4 00007530
+
+_V0 Inf.SP(both mode)
+$0200 87AE2C6C 4680B800
+$0200 87BC0FB8 4680B800
+
+_V0 Inf.SP Burst Mode(touch screen red button both mode)
+$0200 87AE2C04 463B8000
+$0200 87BC0FC4 463B8000

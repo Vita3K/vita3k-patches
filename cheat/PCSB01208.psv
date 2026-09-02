@@ -28,3 +28,16 @@ $C201 00000001 00000080
 $3002 00001A40 0000001C
 $0000 00000000 00000094
 $0000 00000000 0000000F
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9353705
+
+_V0 inf.Walk [A] use only in Game-Play [crash]
+$3202 83761B10 00000374
+$0000 00000000 00000094
+$0000 00000000 00000004
+
+_V0 inf.Walk use only in Game-Play if [A] not work
+$3202 82761B10 00000374
+$0000 00000000 00000094
+$0000 00000000 00000004

@@ -1,0 +1,45 @@
+# Title: Dynasty Warriors 8: Empires
+# ID: PCSE00800
+# Region: USA
+# Version: 1.01
+# Type: NoNpDRM
+# Code Author: Unknown
+# Created by Suiseiseki
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8932736
+
+# PCSE00800
+
+_V0 Infinite Order Cards Alternate
+$3201 82400658 FFFFFCD4
+$3300 00000000 00000808
+
+_V0 Infinite Rage Alternate
+$3201 82400658 FFFFFCD8
+$3300 00000000 000186A0
+
+_V0 9999 Chain Alternate
+$3201 82400658 FFFFFCE0
+$3300 00000000 0000270F
+
+_V0 Infinite Musou Alternate
+$3201 82400658 FFFFFCC8
+$3300 00000000 00000303
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8932602
+
+_V0 Infinite Order Cards
+$3101 824005B8 000001F0
+$3300 00000000 00000808
+
+_V0 Infinite Rage
+$3201 824005B8 000001F4
+$3300 00000000 000186A0
+
+_V0 9999 Chain
+$3101 824005B8 000001FC
+$3300 00000000 0000270F
+
+_V0 Infinite Musou
+$3101 824005B8 000001E4
+$3300 00000000 00000303

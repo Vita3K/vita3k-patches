@@ -47,3 +47,11 @@ $0200 053BFCF4 0000FACE
 
 _V0 max.Score Micro-Wave
 $0000 855BF398 00000005
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9194538
+
+_V0 inf.Money
+$B200 00000001 00000000
+$0200 033BFDA0 0000AFFE
+$0200 0332E874 0000AFFE

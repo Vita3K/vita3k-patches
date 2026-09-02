@@ -17,3 +17,16 @@ _V0 Game Speed 2x [hold R]
 $B200 00000001 00000000
 $C201 00000000 00000200
 $0100 0004C10C 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8962215
+
+_V0 All Skills Level 2000
+$B200 00000001 00000000
+$4100 0007885A 00004E20
+$0018 0000000C 00000000
+
+_V0 Unlock all EX Skills
+$B200 00000001 00000000
+$4000 00078859 00000002
+$0018 0000000C 00000000

@@ -1,0 +1,28 @@
+# Title: Total Recoil
+# ID: PCSE00284
+# Region: US
+# Version: 1.01
+# Type: NoNpDrm
+# Code Author: Unknown
+# only for VitaCheat z06 and FW 3.65+
+# Note: [noaslr.skprx] Plugin
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10566997
+
+# PCSE00284
+
+_V0 Infinite Money
+$B200 00000001 00000000
+$3201 0005E0EC 0000081C
+$3300 00000000 0076ADF1
+
+_V0 Infinite HP
+$B200 00000001 00000000
+$3202 0005D300 00000054
+$3200 00000000 000002A4
+$3300 00000000 41000000
+
+_V1 Invincible
+$B200 00000001 0000BABE
+$3202 0005D300 00000054
+$3200 00000000 000002A8
+$3300 00000000 3F800000

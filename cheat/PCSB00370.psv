@@ -165,3 +165,73 @@ $A200 810A0A7C 00000003
 
 _V0 ARNEFON-NPC behaviour XX
 $0200 81FF9B88 00000000 # Talk to this NPC to activate codes
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8924820
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8941842
+
+_V0 inf.Move Baldren
+$0200 821DA5DF 00010102
+
+_V0 inf.Move Baldren Alternative
+$0200 821DA5E0 01010101
+
+_V0 Inf HP Hero
+$0200 8200FE0C 00000309
+
+_V0 Inf MP Hero
+$0200 8200FE08 00000309
+
+_V0 Walk through Walls          # Thx to Yohoki for help
+$A200 810A12A6 00000001  # You can stuck on switches in dungeons, try teleport code to escape.
+$A200 810A12B2 00000001
+$A200 810A12C2 00000001
+$A200 810A12D6 00000001
+
+_V0 Change Map Music [0-1]
+$0200 81FF9B2A 00000000
+
+_V0 Recovery items amount on 250
+$0200 8200F3A4 000000FA
+
+_V0 Misc. items amount on 250
+$0200 8200F3A8 000000FA
+
+_V0 Weapons items amount on 250
+$0200 8200F3AC 000000FA
+
+_V0 Armor items amount on 250
+$0200 8200F3B0 000000FA
+
+_V0 Shows IDs on NPC-Player-Enemy
+$A200 810A125A 00010000
+
+_V0 Automatic Walk-Speed xx
+$0000 810A1248 00000010
+
+_V0 Hidde all NPC 1
+$0200 810A124E 00100000
+
+_V0 Free Camera
+$A200 821BC88C 01000000
+$A200 821BC890 01000000
+
+_V0 Instant Delete Save-File
+$A200 810A0A7C 00000005
+
+_V0 Hiding Status-Bar and Clock
+$0200 810A103C 00000001 # useful for Screenshot
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Play 3x Baldren in Fight
+#$A200 81FF9B460 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Instant Teleport to X Dungeons
+#$0200 81FF9A60 0000000A
+#$A200 810A0A7C 00000003
+#$0200 81FF9A60 000000XX

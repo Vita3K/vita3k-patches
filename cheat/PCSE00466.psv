@@ -92,3 +92,57 @@ _V0 Instant Request Clear
 $B200 00000001 00000000
 $4001 001D5EA4 0000000B
 $000A 00000002 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8577003
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9513097
+
+_V0 Inf Cole
+$0200 81972640 000F4240
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Current Day Modifier
+#$0200 8191DA90 000000xx
+
+_V0 Item Quality (1st Slot Basket)
+$0200 81956C68 42F00000
+
+_V0 Item Quality (2nd Slot Basket)
+$0200 81956C98 42F00000
+
+_V0 Item Quantity (1st Slot Basket) Only for Consumable Item
+$0200 81956C8C 000000FF
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Item Modifier (1st Slot Basket)
+#$0200 81956C64 000000xx
+
+_V0 Best Weapon Traits (1st Slot Basket)
+$0200 81956C6C 00000115
+$0200 81956C70 00000083
+$0200 81956C74 000000F8
+$0200 81956C78 000000A9
+$0200 81956C7C 00000112
+
+_V0 Best Armor Traits (1st Slot Basket)
+$0200 81956C6C 00000115
+$0200 81956C70 00000089
+$0200 81956C74 000000F9
+$0200 81956C78 00000117
+$0200 81956C7C 00000118
+
+_V0 Best Accessories Traits (1st Slot Basket)
+$0200 81956C6C 00000115
+$0200 81956C70 000000F8
+$0200 81956C74 000000F9
+$0200 81956C78 000000FD
+$0200 81956C7C 00000118
+
+_V0 XX-Item Basket 0-3b pos1 FAKE
+$B200 00000001 00000000
+$0000 0022CC8C 00000063
+$0000 0022CC64 0000001A

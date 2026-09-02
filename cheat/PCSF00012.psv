@@ -34,3 +34,18 @@ $0000 00000000 447A0000
 
 _V0 --Note-- use Codes only in Game-Play
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9212704
+
+_V0 Game Speed 2x [hold X]
+$B200 00000001 00000000
+$C201 00000000 00004000
+$0100 000073B0 00000000
+
+_V0 No Reload in Fight
+$B200 00000001 00000000
+$0000 00039060 00000000
+$0000 0003D060 00000000
+$0000 0003F060 00000000
+$0000 0003B060 00000000

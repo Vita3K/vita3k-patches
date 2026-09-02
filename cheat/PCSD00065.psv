@@ -57,3 +57,11 @@ _V0 Christopher Reeves Fly-Walk
 $3202 81D712B0 00000018
 $0000 00000000 00000424
 $0000 00000000 0000008E
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9797507
+
+_V0 inf.HP
+$3202 81D712B0 0000005C
+$0000 00000000 00000054
+$0000 00000000 4600BABE

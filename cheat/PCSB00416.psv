@@ -41,3 +41,9 @@ $0200 00008324 00012FD1
 
 _V0 Camera Bird-View
 $0200 816756B4 4300BABE
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9165640
+
+_V0 Max.Money
+$0200 81208598 0076ADF1

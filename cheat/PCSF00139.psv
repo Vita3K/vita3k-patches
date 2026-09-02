@@ -1,0 +1,17 @@
+# Title: Treasure Park
+# ID: PCSF00139
+# Region: EU
+# Version: 1.02
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10175954
+
+# PCSF00139
+
+_V0 inf.Tries
+$B200 00000001 00000000
+$3202 0000527C 000051D8
+$0000 00000000 0000F9B4
+$0000 00000000 00000007

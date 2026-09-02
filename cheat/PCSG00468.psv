@@ -1,0 +1,23 @@
+# Title: Kurochou no Psychedelica
+# ID: PCSG00468
+# Region: jap
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10526548
+
+# PCSG00468
+
+_V0 Freeze Time [Mini-Game]
+$B200 00000001 0000BABE
+$3102 00016950 00000014
+$0000 00000000 000000C4
+$0000 00000000 00000385
+
+_V0 max.Score [Mini-Game]
+$B200 00000001 0000BABE
+$3202 00016950 00000014
+$0000 00000000 000000C8
+$0000 00000000 04A2CB71

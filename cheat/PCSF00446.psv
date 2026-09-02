@@ -182,3 +182,19 @@ $0000 00000000 00000000
 
 _V0 -Note 1- Rescue-People not work if code is ON.
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9259416
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9491182
+
+_V0 Game Speed 2x Permanent[caution]
+$B200 00000001 00000000
+$0100 00586408 00000000
+
+_V0 Entitlement Points 9.999.999
+$0200 83C75A44 0098967F
+$0200 83D75A44 0098967F
+
+_V0 Sentence Always Years 0
+$0200 83C75A38 00000000
+$0200 83D75A38 00000000

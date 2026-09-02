@@ -69,3 +69,9 @@ $0000 00000000 00000000
 
 _V0 Use always Overheating-Gun-Code first.
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9165640
+
+_V0 inf.Money
+$0200 85600458 00000030

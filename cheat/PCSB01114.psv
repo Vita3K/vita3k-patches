@@ -132,3 +132,45 @@ $0000 00000000 00000000
 
 _V0 Use only X Y or Z do not mix.
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9939629
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9940374
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9941235
+
+_V0 Money 1
+$3203 81189D74 00000288
+$0000 00000000 00000064
+$0000 00000000 0000023C
+$0000 00000000 00000001
+
+_V0 Hold X to Fly [Pointer Code]
+$C201 00000001 00004000
+$3201 8163F9B4 00000020
+$0000 00000000 C4000000
+
+_V0 Hold X to Fly [Seg 0 Code]
+$B200 00000000 00000000
+$C201 00000001 00004000
+$3201 0063F9B4 00000020
+$0000 00000000 C4000000
+
+_V0 Hold X to Fly  [Seg 1  Code]
+$B200 00000001 00000000
+$C201 00000001 00004000
+$3201 000579B4 00000020
+$0000 00000000 C4000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Money HEX-2B67 DEC-11111 <---Amount
+#$0200 8409BC6C 00002B67
+#$B200 00000001 00000000
+#$3202 00078074 0000A4D3
+#$0000 00000000 000D4740
+#$0000 00000000 00000001
+#$B200 00000001 00000000
+#$3202 000?????    0014464C
+#$0000 00000000 00000000
+#$0000 00000000 00000001

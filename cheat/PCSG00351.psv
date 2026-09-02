@@ -222,3 +222,40 @@ $0000 00000000 00000000
 
 _V0 -Note- Jump-Code turn-off befor Loading-Screen
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10059500
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8737132
+
+_V0 Infinite Gold
+$0200 871644AC 000F423F
+
+_V0 Max Inventory Items
+$4101 87120142 000003E7
+$00C8 0000002C 00000000
+
+_V0 Max Storage Items
+$4101 87122322 000003E7
+$07D0 0000002C 00000000
+
+_V0 Infinite HP
+$5200 871B0798 871B0794
+
+_V0 Infinite GP
+$5200 871B07A0 871B079C
+
+_V0 Max HP Value
+$0200 871B0794 000003E7
+
+_V0 Max GP Value
+$0200 871B079C 000003E7
+
+_V0 Max Level
+$0200 871B0790 00000004
+
+_V0 Experience Modifier [Note 1]
+$0200 871B07A4 00000000 #<---SET VALUE HERE: ENTER THE XP (SORRY, NO MOV)
+
+_V0 Max/Inf Storage Material
+$4101 8702234E 000003E7
+$07D0 0000002C 00000000

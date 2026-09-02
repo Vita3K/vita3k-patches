@@ -1,0 +1,30 @@
+# Title: Hatsune Miku: Project Diva F 2nd
+# ID: PCSB00554
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10097129
+
+# PCSB00554
+
+_V0 Relax & Push [Select]
+$B200 00000001 0000BABE
+$0000 00520201 00000001
+$C201 00000001 00000001
+$0000 005205BE 00000010
+
+_V0 Super-Glue [Only for Dummies]
+$B200 00000001 0000C0FE
+$0000 00520201 00000001
+
+_V0 max.Score [push R]
+$B200 00000001 0000DEAD
+$C201 00000001 00000200
+$0200 00520204 0076ADF1
+
+_V0 inf.max Money [DP]
+$B200 00000001 0000BABE
+$0200 005C5DB0 0076ADF1

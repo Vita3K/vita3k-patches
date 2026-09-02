@@ -62,3 +62,18 @@ $0000 00000000 00000000
 
 _V0 #1: This is a modifier cheat. See Wiki for details.
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10825146
+
+_V0 Inf HP
+$B200 00000000 00000000
+$A100 000E527C 00001C21
+
+_V0 Invincibility
+$B200 00000000 00000000
+$A200 000DF8C2 034DF04F
+
+_V0 Infinite Energy
+$B200 00000000 00000000
+$A100 000C9550 00001C00

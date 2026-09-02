@@ -181,3 +181,67 @@ $A100 00376C38 0000BF00
 _V0 * Infinite Ammo
 $B200 00000000 00000000
 $A100 0037E2E6 0000BF00
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8996187
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9023029
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9349736
+
+_V0 Infinite Health /HP不减
+$A100 81376C36 00001C05
+
+_V0 Infinite Ammo /子弹不减
+$A100 8137E2F2 00006929
+
+_V0 Props Than Two Unabated /道具2个以上不减
+$A200 816CB8CA 4621BF00
+
+_V0 BP Max /BP点数MAX
+$A100 816B2EB0 0000BF00
+
+_V0 Max Skill Points /技能点数MAX
+$A100 8174E550 0000BF00
+
+_V0 Max Raid Mode Coins /突击模式金币MAX
+$A100 8173CE20 0000BF00
+
+_V0 Big Weapons /武器变大
+$A100 812BE298 00004081
+
+_V0 One Hit Kill /敌人一击必杀
+$A100 812651B4 0000BF00
+
+_V0 Freeze Clear Time /过关评价时间0
+$A200 816AB240 BF00BF00
+
+_V0 100 Accuracy, 0 Retries /过关评价命中100.重试0
+$A200 816AB2B2 0C00F05F
+$A100 816AB2B6 0000E000
+
+_V0 Gun Attack Speed Up /开枪速度加快
+$A200 813331A0 0A00EEB0
+
+_V0 Infinite Life Crystal-Raid Mode /突击模式无限生命水晶
+$A100 816B4ACE 0000BF00
+
+_V0 Infinite Bottle-Raid Mode /突击模式各种爆炸瓶子不减
+$A100 81351516 00002005
+
+_V0 60 FPS Cap no.1
+$D201 82A40178 42700000
+$0200 82A4017C 42700000
+
+_V0 60 FPS Cap no.2
+$D201 829C0178 42700000
+$0200 829C017C 42700000
+
+_V0 60 FPS Cap no.3
+$D201 82A80178 42700000
+$0200 82A8017C 42700000
+
+_V0 60 FPS Cap no.4
+$D201 89B40178 42700000
+$0200 89B4017C 42700000
+
+_V0 Stop Mission Time
+$0200 88A720E4 42F2DD3F

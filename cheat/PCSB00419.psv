@@ -15,3 +15,25 @@ $0200 0045AB34 000BDE31
 _V0 max.Diva-Points
 $B200 00000001 00000000
 $0200 00284E20 000BDE31
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10095257
+
+_V0 Relax & Push [Select]
+$B200 00000001 00000000
+$C201 00000001 00000001
+$0000 0045AEEA 00000010
+$0100 0045AB30 00000100
+
+_V0 Super-Glue [Only for Dummies]
+$B200 00000001 00000000
+$0100 0045AB30 00000100
+
+_V0 max.Score [push R]
+$B200 00000001 0000BABE
+$C201 00000001 00000200
+$0200 0045AB34 0076ADF1
+
+_V0 inf.max Money [DP]
+$B200 00000001 00000000
+$0200 00284E20 0076ADF1

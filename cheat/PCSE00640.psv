@@ -1,0 +1,25 @@
+# Title: Region USA
+# ID: PCSE00640
+# Region: US
+# Version: 1.08
+# Type: NoNpDrm?
+# Code Author: u/zartyfggh
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9615988
+
+# PCSE00640
+
+_V0 life
+$3203 81FC0618 00000168
+$3200 00000000 0000014C
+$3200 00000000 00000152
+$3300 00000000 00004100
+
+_V0 life
+$3203 81D00324 00000168
+$3200 00000000 0000014C
+$3200 00000000 00000152
+$3300 00000000 00004300
+
+_V0 collectibles shop
+$B200 00000001 00000000
+$0200 0002A678 00000064

@@ -153,3 +153,27 @@ $0005 000000C0 00000001
 _V0 inf.max Skill-Points [NO SAVE]
 $B200 00000001 00000000
 $0100 000D497C 00000309
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9105962
+
+_V0 Mega Jump
+$3201 814688C8 000000B0
+$3300 00000000 00000020
+
+_V0 Hover-Walk [hold L]
+$C202 00000000 00000100
+$3201 814688C8 000000A4
+$3300 00000000 00000001
+
+_V0 Walk through Walls [turn on-off]
+$3201 814688C8 000000AF
+$3300 00000000 0000000D
+
+_V0 Change Fighting Style 0-F
+$3201 814688C8 00000064
+$3300 00000000 00000000
+
+_V0 Inf. Skill-Points #not stable at the moment turn only on in FP menu and off.
+$3201 81A40580 00000047
+$3300 00000000 00000063

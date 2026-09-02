@@ -749,3 +749,15 @@ $0200 8395C610 00002B8A
 _V0 Weapon Shop Slot 1 Halo Bow
 $0200 8385C610 00002B8C
 $0200 8395C610 00002B8C
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8660022
+
+_V0 1st Card Slot
+$0200 83C96BE0 00014438
+$0200 83C96BEC 0001B160
+$0200 83C96BF0 0001B160
+
+_V0 1st Weapon Muramasa w/ Brandish as 2nd Skill
+$0200 83C46E60 000027C4
+$0200 83C46E70 0001B05F

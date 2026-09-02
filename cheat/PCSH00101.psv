@@ -1,0 +1,16 @@
+# Title: Final Fantasy X-2 HD Remastered
+# ID: PCSH00101
+# Region: CHI
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Unknown
+# Created by tomberyx
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8987220
+
+# PCSH00101
+
+_V0 Walk Speed Up
+$0000 81F66F77 00000042
+
+_V0 Teleport
+$0200 827309B0 000000CE

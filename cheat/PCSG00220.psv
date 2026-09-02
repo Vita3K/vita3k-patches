@@ -100,3 +100,15 @@ $3001 82081D24 00003246
 $3300 00000000 00000001
 $3001 82081D24 00003247
 $3300 00000000 0000001C
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8987220
+
+_V0 Walk Speed Up
+$0000 81DB8F37 00000042
+
+_V0 Game Speed Up
+$0200 81A7E320 4333974A
+
+_V0 Teleport
+$0200 825820C0 000000CE

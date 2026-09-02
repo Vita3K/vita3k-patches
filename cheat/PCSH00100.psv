@@ -1,0 +1,16 @@
+# Title: Final Fantasy X HD Remastered
+# ID: PCSH00100
+# Region: CHI (ASA)
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Unknown
+# Created by tomberyx
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8974824
+
+# PCSH00100
+
+_V0 GAME SPEED UP
+$0200 819EB010 439A5832
+
+_V0 WALK SPEED UP
+$0200 820ADEB7 00000043

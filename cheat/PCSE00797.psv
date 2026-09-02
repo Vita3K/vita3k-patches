@@ -1,0 +1,83 @@
+# Title: Forma.8
+# ID: PCSE00797
+# Region: US
+# Version: 1.03
+# Type: NoNpDrm
+# Code Author: tomberyx
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10805546
+
+# PCSE00797
+
+_V0 Movement-Speed 8x [push-L]
+$B200 00000001 0000BABE
+$C201 00000001 00000100
+$3203 00009F3C 00000030
+$0000 00000000 FFFFFED4
+$0000 00000000 00000100
+$0000 00000000 4460BABE
+
+_V0 inf.HP
+$B200 00000001 0000BABE
+$3202 00019C60 0007A980
+$0000 00000000 00000010
+$0000 00000000 40400001
+
+_V0 Untouchable
+$B200 00000001 0000BABE
+$3003 00009F3C 00000030
+$0000 00000000 FFFFFED4
+$0000 00000000 000000CC
+$0000 00000000 00000001
+
+_V0 [Unlock] all Tools
+$B200 00000001 0000BABE
+$3202 00019C5C 00080210
+$0000 00000000 00000044
+$0000 00000000 01010101
+$3202 00019C5C 00080210
+$0000 00000000 00000034
+$0000 00000000 01010101
+$3202 00019C5C 00080210
+$0000 00000000 00000040
+$0000 00000000 01010101
+
+_V0 inf.max Key
+$B200 00000001 0000BABE
+$3002 00019C5C 00080210
+$0000 00000000 00000058
+$0000 00000000 00000007
+
+_V0 inf.max Cogs
+$B200 00000001 0000BABE
+$3002 00019C5C 00080210
+$0000 00000000 0000005C
+$0000 00000000 00000007
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 -------------------
+#$00000 00000001 0000BABE
+
+_V0 inf.HP [alternative]
+$B200 00000001 0000BABE
+$3203 00019C5C FFFFAC9C
+$0000 00000000 FFFFEC50
+$0000 00000000 00000010
+$0000 00000000 40400000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 -------------------
+#$00000 00000001 0000BABE
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10805546
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 -------------------
+#$00000 00000001 0000BABE

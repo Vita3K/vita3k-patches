@@ -1,0 +1,18 @@
+# Title: Samurai Warriors 4-II
+# ID: PCSE00737
+# Region: USA
+# Version: 1.00
+# Type: NoNpDRM
+# Code Author: Unknown
+# Created by Suiseiseki
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9989234
+
+# PCSE00737
+
+_V0 Infinite Spirit (First Character/Survival Mode)
+$3201 82DA277C 000005AC
+$3300 00000000 447A0000
+
+_V0 Infinite Musou (First Character/Survival Mode)
+$3201 82DA277C 000005A4
+$3300 00000000 453B8000

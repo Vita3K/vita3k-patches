@@ -1,0 +1,33 @@
+# Title: The LEGO Movie Videogame
+# ID: PCSB00553
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10438020
+
+# PCSB00553
+
+_V0 inf.max HP
+$B200 00000001 0000BABE
+$3001 00004ECC 00000170
+$0000 00000000 000000C8
+
+_V0 Walk Speed 2x
+$B200 00000001 0000BABE
+$3201 00004ECC 0000018C
+$0000 00000000 3F100000
+
+_V0 max.Power-Gauge
+$B200 00000001 0000BABE
+$0200 00032CB8 00000000
+
+_V0 max.Studs
+$B200 00000001 0000BABE
+$0200 000E8570 0076ADF1
+
+_V0 [Time] Freeze
+$B200 00000001 0000BABE
+$0200 000308C4 3F2A0000

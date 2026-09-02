@@ -17,3 +17,76 @@ $A100 0017297E 00005042
 $A200 00172980 036FF890
 $A100 00172984 0000BD06
 $A200 000590E2 FC45F119
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8813319
+
+_V0 Invincibility
+$B200 00000001 00000000
+$0000 002AAF40 0000006C
+
+_V0 Max Lives
+$B200 00000001 00000000
+$0000 002AAC7A 00000063
+
+_V0 Inf Ammo
+$B200 00000001 00000000
+$0100 002B94BA 0000FFFF
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Weapon Select - NOTE 1
+#$B200 00000001 00000000
+#$0100 002B94B2 0000xxxx
+
+_V0 Rapid Fire
+$B200 00000001 00000000
+$0000 002B94B0 00000000
+
+_V0 Inf Bombs
+$B200 00000001 00000000
+$0000 002B94B4 00000063
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Bomb Select - NOTE 2
+#$B200 00000001 00000000
+#$0000 002B94B5 000000xx
+
+_V0 No Bomb Delay
+$B200 00000001 00000000
+$0000 002B94B1 00000000
+
+_V0 Inf Slug Bombs
+$B200 00000001 00000000
+$0000 002B95F8 00000063
+
+_V0 Inf Slug Fuel
+$B200 00000001 00000000
+$0000 002B95F8 00000060
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Body Type Select - NOTE 3
+#$B200 00000001 00000000
+#$0000 002AAF4E 000000xx
+
+_V0 UP+START to Finish Level Now
+$C202 00000001 00000018
+$B200 00000001 00000000
+$0000 002B973C 0000003F
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Select Starting Mission - NOTE 4
+#$B200 00000001 00000000
+#$0000 002B973B 000000xx
+
+_V0 DOWN+START to Get 15 POWs
+$C202 00000001 00000048
+$B200 00000001 00000000
+$0000 002B96C4 000000FF

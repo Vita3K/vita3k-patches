@@ -231,3 +231,18 @@ $A200 81234EA4 E51FF004
 $A200 81234EA8 8104F625
 $A200 8104F61C 47781C00
 $A200 8104F620 EA07961A
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8949312
+
+_V0 Hold X to Fly
+$D502 8230CB50 00000000
+$C201 00000001 00004000
+$0200 8239F6BC 41F00000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Inf Rage of Gods
+#$D502 8230CB50 00000000
+#$3201 8236C908 00005340 $3300 00000000 42C80000

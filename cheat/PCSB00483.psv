@@ -1,0 +1,20 @@
+# Title: Broken Sword 5 The Serpent's Curse - Episode 1
+# ID: PCSB00483
+# Region: EU
+# Version: 1.01
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10235149
+
+# PCSB00483
+
+_V0 Game Speed 2x
+$B200 00000001 0000BABE
+$0000 00000A74 00000000
+
+_V0 Game Speed 2x [hold X]
+$B200 00000001 0000BABE
+$C202 00000001 00004000
+$0000 00000A74 00000000

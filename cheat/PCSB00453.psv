@@ -1,0 +1,29 @@
+# Title: Best of Arcade Games
+# ID: PCSB00453
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10100474
+
+# PCSB00453
+
+_V0 inf.max Balls [Brick Breaker]
+$B200 00000001 00000000
+$3002 00001FBC 0000049C
+$0000 00000000 00000884
+$0000 00000000 0000004D
+
+_V0 inf.Tries [Bubble Buster]
+$B200 00000001 00000000
+$3102 00002014 00000364
+$0000 00000000 00000000
+$0000 00000000 00001E61
+
+_V0 Opponent No-Win [Air Hockey]
+$B200 00000001 00000000
+$3002 00000324 00001F28
+$0000 00000000 00000080
+$0000 00000000 00000000

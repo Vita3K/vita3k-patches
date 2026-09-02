@@ -77,3 +77,36 @@ $0003 00000044 00000000
 
 # ~~~
 # @r0ah , You may add this bit of code as an example to the "Pointer Compression" page if you like. There is no info there at all at the moment, so it's pretty confusing to newbies.
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10537563
+
+_V0 Infinite Starfruit
+$B200 00000001 00000000
+$3203 000A1828 00000758
+$3200 00000000 00000114
+$3200 00000000 00000080
+$3300 00000000 000F423F
+
+_V0 No Dropped Fruit
+$B200 00000001 00000000
+$3202 00002B58 00001F8F
+$3200 00000000 0000006C
+$3300 00000000 00000000
+
+_V0 Infinite Bomb Deflects
+$B200 00000001 00000000
+$3202 000A0084 00000000
+$3200 00000000 00000050
+$3300 00000000 00000005
+
+_V0 Max Score
+$B200 00000001 00000000
+$3202 00002B58 00001F8F
+$3200 00000000 00000070
+$3300 00000000 000F423F
+
+_V0 Time Stop
+$B200 00000001 00000000
+$3201 000A0264 0000008C
+$3300 00000000 42B44B72

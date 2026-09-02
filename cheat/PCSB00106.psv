@@ -45,3 +45,40 @@ $0200 81F965B0 00000000
 _V0 Round-Fights 00
 $0000 81F90ED8 00000000
 $0000 81F90ED4 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10045938
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9701214
+
+_V1 Inf Time Smoker1
+$0000 81F965AC 00000063
+
+_V0 1P Inf Health Smoker1-Demolinizer
+$0200 8A735934 3F800000
+
+_V0 Inf Life Bar Blood Smoker1-Demolinizer
+$0200 8A735938 3F800000
+
+_V0 CPU Takes 2x Damage Smoker1
+$0200 81F8DAEC 40000000
+
+_V0 CPU Takes 3x Damage Smoker1
+$0200 81F8DAEC 40400000
+
+_V0 99999 Koins Smoker1
+$0200 81FBBDF8 0001869F
+
+_V0 P1 Infinite X-Ray
+$0200 81F8CD3E 00003F80
+
+_V0 Auto Fatality
+$0200 81F8BA54 0000000A
+
+_V0 Auto Fatality
+$0200 81F8BA44 0000000A
+
+_V0 Max time
+$0200 81F965AC 00000038
+
+_V0 One Hit Kill
+$0200 8A798B94 00000000

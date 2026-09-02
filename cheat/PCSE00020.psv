@@ -21,3 +21,10 @@ $0000 82720187 00000040
 
 _V0 EGO-Perspective [Push R]
 $0000 82245126 00000001
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8650297
+
+_V0 Inf HP
+$3201 822448B8 000004E0
+$3300 00000000 004B0001

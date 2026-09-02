@@ -56,3 +56,9 @@ $0200 82C2E1A0 004C4F4C
 
 _V0 ...F-Bombs #Just makes bombs say you have "F" left
 $0200 82C2E1A0 00000046
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8760722
+
+_V0 Inf Blood Stones
+$0200 82C33A90 0000006A

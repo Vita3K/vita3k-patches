@@ -1,0 +1,18 @@
+# Title: Everybody's Golf 6 [Minna no Golf 6]
+# ID: PCSC00001
+# Region: jap
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9461911
+
+# PCSC00001
+
+_V0 Brocken Neck [hold Down]
+$B200 00000001 00000000
+$C201 00000001 00000040
+$0200 00021C1C 00000002
+
+_V0 Slow Motion [Shot]
+$B200 00000001 00000000
+$0000 00021C0C 00000000

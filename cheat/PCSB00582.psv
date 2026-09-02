@@ -91,3 +91,11 @@ _V0 Instant Request Clear
 $B200 00000001 00000000
 $4001 001D5EA4 0000000B
 $000A 00000002 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9195647
+
+_V0 XX-Item Basket 0-3b pos1 FAKE
+$B200 00000001 00000000
+$0000 0022CC8C 00000063
+$0000 0022CC64 0000001A

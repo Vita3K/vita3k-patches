@@ -418,3 +418,70 @@ $0000 00000000 00000007
 
 _V0 -Note-[Party-Code]Save only on New-Save
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8948711
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9330434
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9697256
+
+_V0 Inf.Money
+$3201 811E44B0 0001120C
+$3300 00000000 0098967F
+
+_V0 Inf.Mp
+$3201 811E44B0 00011210
+$3300 00000000 0000FFFF
+
+_V0 Play Time 0
+$3201 811E44B0 00011214
+$3300 00000000 00000000
+
+_V0 Best Equipment for Adol
+$3201 811E44B0 00011236 # weapon
+$3300 00000000 00000001
+$3201 811E44B0 0001132E # Armor
+$3300 00000000 00000001
+
+_V0 Best Equipment for Duren
+$3201 811E44B0 0001125E # weapon
+$3300 00000000 00000001
+$3201 811E44B0 0001132E # Armor
+$3300 00000000 00000001
+
+_V0 Hold X to Fly
+$C201 00000001 00004000
+$3202 81003814 FFFFD1C0
+$0000 00000000 0000064C
+$3300 00000000 3EA00000
+
+_V0 Walk-Speed 2x [push X multiple]
+$C201 00000001 00004000
+$3202 810808B0 00001444
+$0000 00000000 00000CC0
+$3300 00000000 00000000
+
+_V0 Walk thru Walls [hold X]
+$C201 00000001 00004000
+$3202 810808B0 00001444
+$0000 00000000 00000CC0
+$3300 00000000 00800000
+$C201 00000001 00004000
+$3202 81003814 FFFFD1C0
+$0000 00000000 0000064C
+$3300 00000000 3E000000
+
+_V0 Hover [hold X]
+$C201 00000001 00004000
+$3202 810808B0 00001444
+$0000 00000000 00000CC2
+$3300 00000000 00000030
+
+_V0 Inf.Money
+$3201 811E44B0 0001120C
+$3300 00000000 0098967E
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 -Note-[Party-Code]Save only on New-Save
+#$0000 00000000 0000000

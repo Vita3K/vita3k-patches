@@ -1,0 +1,20 @@
+# Title: Tokyo Ghoul Jail
+# ID: PCSG00615
+# Region: Jap
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10605202
+
+# PCSG00615
+
+_V0 One Hit Kill
+$B200 00000001 0000BABE
+$3201 00011D70 FFFED308
+$0000 00000000 00012CC8
+
+_V0 inf.HP
+$B200 00000001 0000BABE
+$3101 00011D70 FFFED304
+$0000 00000000 000003E8

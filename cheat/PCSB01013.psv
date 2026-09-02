@@ -1,0 +1,26 @@
+# Title: Summon Night 6 Lost Borders
+# ID: PCSB01013
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Vita-Language: German
+# Reset Game: 20+
+# Dlc: No!
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9194538
+
+# PCSB01013
+
+_V0 inf.Money
+$0200 8417C908 0076ADF2
+
+_V0 Exp 7777777
+$0200 8417C90C 0076ADF1
+
+_V0 max.Status Rai [not Permanent]
+$0200 8417C92E 00000001
+$0200 8417C932 00000001
+$0200 8417C936 00000001
+$0200 8417C93A 00000001
+$0200 8417C93E 00000001
+$0200 8417C942 00000001

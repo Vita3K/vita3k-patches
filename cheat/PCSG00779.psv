@@ -1,0 +1,18 @@
+# Title: Daisenryaku Perfect Senjou no Hasha
+# ID: PCSG00779
+# Region: Jap
+# Version: 1.01
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10404850
+
+# PCSG00779
+
+_V0 inf.max Money [Blue]
+$B200 00000001 0000BABE
+$3203 00263D54 0000004C
+$0000 00000000 FFFFE22C
+$0000 00000000 00000034
+$0000 00000000 000BDE31

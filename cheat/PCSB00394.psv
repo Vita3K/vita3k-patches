@@ -204,3 +204,26 @@ $0200 82585A0C 00000000
 
 _V0 Steuerung Invert
 $0000 81DBBF40 00000001
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8984734
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8987220
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9868274
+
+_V0 Instant Fight
+$0200 81DDF808 00000000
+
+_V0 Teleport to XX  [021-XXX]
+$0200 82585950 000000B6 #change 0B6
+
+_V0 Zoom IN-OUT [only for adults]
+$0200 82712632 00004300 #change 300
+
+_V0 Instand Destination list [Ship]
+$0200 82585950 00F4011D
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 inf.gil
+#$0200 XXXXXXXX XXXXXXXX

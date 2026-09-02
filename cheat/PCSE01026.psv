@@ -183,3 +183,15 @@ $0000 00000000 00000000
 
 _V0 -Do not use codes permanent.
 $0000 00000000 00000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9251688
+
+_V0 Default 30 FPS v1.04
+$0200 823FD0EC 00000002
+
+_V0 60 FPS v1.04
+$0200 823FD0EC 00000001
+
+_V0 120 FPS (or Uncapped?) v1.04
+$0200 823FD0EC 00000000

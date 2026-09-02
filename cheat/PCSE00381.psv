@@ -1,0 +1,77 @@
+# Title: Toukiden: The Age of Demons
+# ID: PCSE00381
+# Region: US
+# Version: 1.03
+# Type: NoNpDrm
+# Code Author: Unknown
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10484232
+
+# PCSE00381
+
+_V0 Max Money
+$B200 00000001 00000000
+$0200 02E4BBD4 0098967F
+
+_V0 Gold Store Patronage (Max)
+$B200 00000001 00000000
+$0200 02E494A4 0098967F
+
+_V0 Weapon Storage Slot 500
+$B200 00000001 00000000
+$0200 02E4F620 000001F4
+
+_V0 Material Storage Slot 700
+$B200 00000001 00000000
+$0200 02E4D0A0 000002BC
+
+_V0 MAX Status (2000) [Active Before Battle] *N1*
+$B200 00000001 00000000
+$0200 02E89D0E 000107D0 #<---SET VALUE HERE: Elemetal Damage Type (Raw Damage) (0001)
+$0200 02E89CBE 000007D0
+$0200 02E89CC0 000007D0
+$0200 02E89CC2 000007D0
+$0200 02E89CC4 000007D0
+$0200 02E89CC6 000007D0
+$0200 02E89CC8 000007D0
+
+_V0 Precision ATK (Piercing)  [Active Before Battle]
+$B200 00000001 00000000
+$0200 02E89D14 26000000
+
+_V0 Elemetal Damage+Type (0 to 4) [Active Before Battle] *N2*
+$B200 00000001 00000000
+$0200 02E89D10 07D00001 #<---SET VALUE HERE: 07D0000"1"
+
+_V0 Inf Focus [On Mission]
+$3201 81366B00 000001FC
+$3300 00000000 44FA0000
+
+_V0 Inf HP [On Mission] [N3]
+$3201 815D83C0 000046E0
+$3300 00000000 44700000
+
+_V0 Inf Weapon Art [On Mission]
+$3201 81366B00 00000204
+$3300 00000000 44A00000
+
+_V0 Player Speed 2x [Mission]
+$3201 81366B00 000012A0
+$3300 00000000 02640000
+
+_V0 Focus-Recover Bar [On Mission]
+$3201 815D83C0 000047B0
+$3300 00000000 43F00000
+
+_V0 HP-Recover Bar [On Mission]
+$3201 815D83C0 000046AC
+$3300 00000000 44700000
+
+_V0 [N1] Elemetal Damage Type (0000) [0 to 4] or (0205)=No element
+$0000 00000000 00000000
+
+_V0 [N2] Same Type Set on MAX Status code*Does Not Allow Set Poison
+$0000 00000000 00000000
+
+_V0 [N3] If it fails restart the mission.

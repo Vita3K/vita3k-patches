@@ -1,0 +1,18 @@
+# Title: Sound Shapes
+# ID: PCSF00076
+# Region: EU
+# Version: 1.14
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10388830
+
+# PCSF00076
+
+_V0 inf.Jump
+$B200 00000001 0000BABE
+$3003 0002E558 FFFFFC98
+$0000 00000000 00000010
+$0000 00000000 000004A8
+$0000 00000000 00000000
