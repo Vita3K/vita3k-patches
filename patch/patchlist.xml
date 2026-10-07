@@ -436,6 +436,32 @@
 		</PatchList>
 	</Metadata>
 
+	<!-- Silent Hill: Book of Memories -->
+	<TitleID>
+		<ID>PCSE00011</ID>
+	</TitleID>
+	<Metadata Title="Silent Hill: Book of Memories"
+						Name="Intro skip"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="">
+		<PatchList>
+			<Line Type="bytes" Address="0x196FD8" Value="0x00BF"/>
+			<Line Type="bytes" Address="0x196FDA" Value="0x00BF"/>
+			<Line Type="bytes" Address="0x196FF8" Value="0x00BF"/>
+			<Line Type="bytes" Address="0x196FFA" Value="0x00BF"/>
+			<Line Type="bytes" Address="0x19701C" Value="0x00BF"/>
+			<Line Type="bytes" Address="0x19701E" Value="0x00BF"/>
+			<Line Type="bytes" Address="0x19703C" Value="0x00BF"/>
+			<Line Type="bytes" Address="0x19703E" Value="0x00BF"/>
+			<Line Type="bytes" Address="0x19705C" Value="0x00BF"/>
+			<Line Type="bytes" Address="0x19705E" Value="0x00BF"/>
+		</PatchList>
+	</Metadata>
+
 	<!-- Sly Cooper and the Thievius Raccoonus (EU) -->
 	<TitleID>
 		<ID>PCSF00269</ID>
