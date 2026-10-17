@@ -1,0 +1,144 @@
+# ID: PCSG00198
+# Title: サカつく プロサッカークラブをつくろう！
+# Region: JP
+# Version: 1.03
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1551175120 (>>85, >>93, >>181, >>182), https://medaka.5ch.net/test/read.cgi/gameurawaza/1581709488 (>>732, >>735)
+# Note: Player records are 0x218 apart; the $0017 repeat covers 23 players.
+#       Codes marked ** or XXXX take a user-supplied value (tables below).
+#       The "friendship" code was reposted from elsewhere and is unverified;
+#       $0117 (279 entries) may need to be $0017 (23 entries) instead.
+
+_V0 Money 9999999
+$0200 81BFEB44 0098967F
+
+_V0 Money 99999999
+$0200 81BFEB44 05F5E0FF
+
+_V0 Special training finishes in 1 turn
+$0000 81C046B0 00000001
+$0000 81C046BC 00000001
+$0000 81C046C8 00000001
+
+_V0 Hizoukko training 1/2/3 finishes in 1 turn
+$0000 81C046D8 00000001
+$0000 81C046F8 00000001
+$0000 81C04718 00000001
+
+_V0 Stadium construction finishes in 1 week
+$0000 81C03FF1 0E000001
+
+_V0 Club building construction finishes in 1 week
+$0000 81C03FF3 00000001
+
+_V0 Youth scouting finishes in 1 week
+$0000 81CAAF58 00000001
+$0000 81CAAF70 00000001
+$0000 81CAAF88 00000001
+$0000 81CAAFA0 00000001
+$0000 81CAAFB8 00000001
+
+_V0 Study abroad returns next month
+$4001 81C04790 00000001
+$0017 0000000C 00000000
+
+_V0 All 23 players: fatigue 0 + condition MAX
+$4101 81BFED1C 000003E8
+$0017 00000218 00000000
+$4101 81BFED1E 00000000
+$0017 00000218 00000000
+$4101 81BFED20 000003E8
+$0017 00000218 00000000
+
+_V0 All 23 players: awakening points MAX
+$4101 81BFED1A 0000FFFF
+$0017 00000218 00000000
+
+_V0 All 23 players: popularity MAX
+$4101 81BFED5C 0000FFFF
+$0017 00000218 00000000
+
+_V0 All players friendship 255 (unverified)
+$4001 81CAA332 000000FF
+$0117 00000001 00000000
+
+_V0 Special E-rank player 99 (use at club creation)
+$0000 86580868 00000063
+
+_V0 Assign squad number = player number
+$4001 81BFEC5A 00000001
+$0017 00000218 00000001
+
+# Player 1 ability values (2nd player onward: +0x218)
+#   1st block  = dribble speed .. mentality, actual values
+#   2nd block  = GK .. FW, actual values (position aptitude)
+#   3rd block  = possession .. 541 understanding, actual values
+#   4th-6th    = the same three groups, cap values
+#   7th-9th    = the same three groups, experience
+_V0 Player 1 all abilities MAX
+$4001 81BFEC60 000000CD
+$0013 00000001 00000000
+$4001 81BFEC73 000000CD
+$000B 00000001 00000000
+$4201 81BFEC7E 000000CD
+$0010 00000001 00000000
+$4001 81BFEC8F 000000CD
+$0013 00000001 00000000
+$4001 81BFECA2 000000CD
+$000B 00000001 00000000
+$4001 81BFECAD 000000CD
+$0010 00000001 00000000
+$4101 81BFECBE 0000FFFF
+$0013 00000002 00000000
+$4101 81BFECE4 0000FFFF
+$000B 00000002 00000000
+$4101 81BFECFA 0000FFFF
+$0010 00000002 00000000
+
+# Per-position addresses for player 1 (actual / cap / experience):
+#   GK  81BFEC73 81BFECA2 81BFECE4
+#   LSB 81BFEC74 81BFECA3 81BFECE6
+#   RSB 81BFEC75 81BFECA4 81BFECE8
+#   CB  81BFEC76 81BFECA5 81BFECEA
+#   DM  81BFEC77 81BFECA6 81BFECEC
+#   LSM 81BFEC78 81BFECA7 81BFECEE
+#   RSM 81BFEC79 81BFECA8 81BFECF0
+#   OM  81BFEC7A 81BFECA9 81BFECF2
+#   LWG 81BFEC7B 81BFECAA 81BFECF4
+#   RWG 81BFEC7C 81BFECAB 81BFECF6
+#   FW  81BFEC7D 81BFECAC 81BFECF8
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+# ** values: 0A/0B, 0C/0D, 0E, 0F (ascending evaluation ranks)
+#_V0 Player evaluation rank (set **)
+#$4001 81BFEC58 000000**
+#$0017 00000218 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+# ** values: 00 early A, 01 early B, 02 normal A, 03 normal B,
+#            04 late A, 05 late B, 06 two-stage, 07 long stable
+#_V0 Player growth type (set **)
+#$4001 81BFEE5F 000000**
+#$0017 00000218 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+# 1st trait; 2nd onward is +1h, up to the 5th. ** = trait ID 00-13.
+#_V0 Player trait 1 (set **)
+#$4001 81BFEE60 000000**
+#$0017 00000218 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+# XXXXYYYY: origin is top-left; larger X moves right, larger Y moves down.
+# FFFF0000 = top-right, 0000FFFF = bottom-left, 7FFF7FFF = centre.
+#_V0 All 23 players: policy position (set XXXXYYYY)
+#$4201 81BFED38 XXXXYYYY
+#$0017 00000218 00000000

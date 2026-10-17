@@ -1,0 +1,11 @@
+# ID: PCSG00792
+# Title: デジモンワールド -next 0rder-
+# Region: JP
+# Version: 1.05
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1647216749 (>>80)
+# Note: BIT is compared against 0x0098967F (9999999) unencrypted.
+
+_V0 BIT Max (on change)
+$A200 81B80050 E320F000

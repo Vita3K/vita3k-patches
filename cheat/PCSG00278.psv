@@ -1,0 +1,112 @@
+# Title: Shin Gundam Musou
+# ID: PCSG00278
+# Region: Jap
+# Version: 1.02
+# Type: NoNpDrm
+# Code Author: tomberyx
+
+# PCSG00278
+
+_V0 Game Speed 2x
+$B200 00000001 00000000
+$0100 0022C320 00000000
+
+_V0 Game Speed -2x
+$0000 87AE3620 00000008
+
+_V0 Player Speed 2x
+$0200 87AE35C8 40500000
+
+_V0 Player Speed -2x
+$0200 87AE35C8 3E800000
+
+_V0 Walk Speed 2x
+$0200 87AE2BE4 41C00000
+
+_V0 Naruto Walk
+$0100 87AE3544 00000005
+
+_V0 max.Status
+$0000 81621790 000000C8
+$0000 81621792 000000C8
+$0000 81621794 000000C8
+
+_V0 inf.max Team-Points
+$0100 816217A4 000003E7
+
+_V0 inf.HP
+$0100 87AE2BF4 00000F90
+
+_V0 inf.Stamina
+$0200 87AE2C5C 45BB8000
+
+_V0 inf.Power
+$0100 87AE2C00 00002EE0
+
+_V0 max.Lv.after Fight
+$0200 8162178C 0076ADF1
+
+_V0 Hold L to Fly
+$C201 00000001 00000100
+$0100 87AE3544 00000015
+
+_V0 Power Slash [push L]
+$C201 00000001 00000100
+$0100 87AE3544 00000185
+
+_V0 Player Size [Gigant]
+$0200 87AE38F8 40400000
+
+_V0 Player Size [Dwarf]
+$0200 87AE38F8 3E800000
+
+_V0 Player Size [Default]
+$0200 87AE38F8 3F800000
+
+_V0 Instant Movies 1-2C
+$0000 81621700 00000001
+
+_V0 Instant Ending 2D-32
+$0000 81621700 0000002D
+
+_V0 X-Level-Player 1-31
+$0000 8162178A 00000031
+
+_V0 Not Sure what it does
+$0000 87AE3918 00000003
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9360480
+
+_V0 Max Money(both mode)
+$0200 81621EF8 05F5E0FF
+
+_V0 Pilot Level Max(both mode)
+$0200 8162178C 00065324
+
+_V0 Inf.Materials(both mode)
+$4101 816216F0 000003E7
+$0008 00000002 00000000
+
+_V0 9999 Enemies Kills(during stage both mode)
+$0100 8137BDCA 0000270F
+
+_V0 9999 Enemies Kills(score screen both mode)
+$4101 81621744 0000270F
+$0003 00000004 00000000
+
+_V0 Inf.Boost(both mode)
+$0200 87AE2C5C 46802000
+$0200 87BC101C 46802000
+
+_V0 Inf.HP(both mode)
+$0200 87AE2BF4 00007530
+$0200 87BC0FB4 00007530
+
+_V0 Inf.SP(both mode)
+$0200 87AE2C6C 4680B800
+$0200 87BC0FB8 4680B800
+
+_V0 Inf.SP Burst Mode(touch screen red button both mode)
+$0200 87AE2C04 463B8000
+$0200 87BC0FC4 463B8000

@@ -1,0 +1,17 @@
+# Title: Dragon Fantasy The Black Tome of Ice
+# ID: PCSB00931
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10156446
+
+# PCSB00931
+
+_V0 Game Speed 2x
+$B200 00000001 00000000
+$0000 00000000 00000000
+$0000 00000204 0000004C
+$0000 00000000 00000000

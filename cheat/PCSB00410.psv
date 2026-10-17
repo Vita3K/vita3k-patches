@@ -1,0 +1,26 @@
+# Title: Velocity2X
+# ID: PCSB00410
+# Region: EU
+# Version: 1.04
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10156446
+
+# PCSB00410
+
+_V0 max.Survivors [Ship]
+$B200 00000001 00000000
+$3101 000377C8 00000320
+$0000 00000000 00001E61
+
+_V0 max.Rekenium
+$B200 00000001 00000000
+$3101 000377C8 0000031C
+$0000 00000000 00001E61
+
+_V0 Untouchable
+$B200 00000001 00000000
+$3001 000377C8 00000010
+$0000 00000000 00000002

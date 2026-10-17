@@ -1,0 +1,44 @@
+# Title: Guacamalee!
+# ID: PCSE00033
+# Region: US
+# Version: 1.04
+# Type: NoNpDrm
+# Code Author: Unknown
+# only for VitaCheat z06 and FW 3.65+
+# Note: [noaslr.skprx] Plugin
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10089896
+
+# PCSE00033
+
+_V0 Infinite Money
+$B200 00000001 00000000
+$3202 0001D34C 00000E0C
+$0000 00000000 00000DDC
+$0000 00000000 0001869F
+
+_V0 255 Hit Combo
+$B200 00000001 00000000
+$3202 0001D34C 00000E0C
+$0000 00000000 0000263C
+$0000 00000000 000000FF
+
+_V0 Infinite HP
+$B200 00000001 00000000
+$3202 0000D188 00000028
+$0000 00000000 000001B0
+$0000 00000000 43AA0000
+
+_V0 Infinite Energy
+$B200 00000001 00000000
+$3202 0000D188 00000AC0
+$0000 00000000 00000194
+$0000 00000000 41000000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10090794
+
+_V0 inf.max HP
+$B200 00000001 00000000
+$3202 0001F898 00000014
+$0000 00000000 000001B0
+$0000 00000000 42A00000

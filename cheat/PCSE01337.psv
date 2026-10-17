@@ -1,0 +1,84 @@
+# Title: Romancing Saga 3 US
+# ID: PCSE01337
+# Region: US
+# Version: 1.02
+# Type: NoNpDrm
+# Code Author: Unknown
+# Note: [noaslr.skprx] Plugin
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9996177
+
+# PCSE01337
+
+_V0 Infinit Money
+$B200 00000000 00000000
+$3202 006A15A0 00004B6E
+$3200 00000000 00000120
+$3300 00000000 00002710
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 ITEM MOD 1st slot
+#$B200 00000000 00000000
+#$3205 00A2326C 000001A1
+#$3200 00000000 00000FC0
+#$3200 00000000 00000000
+#$3200 00000000 00000024
+#$3200 00000000 00000010
+#$3300 00000000 000000xx
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 ITEM QUANTITY 1st slot
+#$B200 00000000 00000000
+#$3205 00737C48 0000051A
+#$3200 00000000 00000408
+#$3200 00000000 0000001C
+#$3200 00000000 00000028
+#$3200 00000000 00000010
+#$3300 00000000 000000xx
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10013232
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9996177
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 ITEM MOD 1st slot
+#$B200 00000000 00000000
+#$3205 00A2326C 000001A1
+#$3200 00000000 00000FC0
+#$3200 00000000 00000000
+#$3200 00000000 00000024
+#$3200 00000000 00000010
+#$3300 00000000 000000xx
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 ITEM QUANTITY 1st slot
+#$B200 00000000 00000000
+#$3205 00737C48 0000051A
+#$3200 00000000 00000408
+#$3200 00000000 0000001C
+#$3200 00000000 00000028
+#$3200 00000000 00000010
+#$3300 00000000 000000xx
+
+_V0 inf.max Money
+$B200 00000001 00000000
+$3204 07001210 FFFFF0EC
+$0000 00000000 FFFFF2C8
+$0000 00000000 FFFFFCFC
+$0000 00000000 00000120
+$0000 00000000 0076ADF1
+
+_V0 inf.HP all Players
+$B200 00000001 00000000
+$7203 00C79758 00001498
+$0000 00000000 00000014
+$0000 00000000 FFFFEB70
+$7703 00000000 00012FD1
+$0005 0000029C 00000000

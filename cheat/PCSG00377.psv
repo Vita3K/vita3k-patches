@@ -1,0 +1,35 @@
+# Title: Oedo BlackSmith
+# ID: PCSG00377
+# Region: Jap
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10602365
+
+# PCSG00377
+
+_V0 inf.max Money
+$B200 00000001 0000BABE
+$0200 00021EFC 0076ADF1
+
+_V0 inf.Create-Items
+$B200 00000001 0000BABE
+$0000 000E7AD8 00000000
+
+_V0 [Blacksmith] inf.Time
+$B200 00000001 0000BABE
+$0100 000E85F0 000001E0
+
+_V0 [Blacksmith] max.Gauge-Green
+$B200 00000001 0000BABE
+$0100 000E7BC0 00001EDC
+
+_V0 [Blacksmith] max.Combo
+$B200 00000001 0000BABE
+$0100 000E7BD4 000003E7
+
+_V0 some inf.Items
+$0200 81224248 000000FF
+$0200 812243F0 000000FF
+$0200 8122431C 000000FF

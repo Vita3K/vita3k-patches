@@ -1,0 +1,44 @@
+# ID: PCSG00479
+# Title: 不思議のダンジョン 風来のシレン5 フォーチュンタワーと運命のダイス
+# Region: JP
+# Version: 3.60
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1523190571 (>>193)
+# Note: Found with vitacheat z05. Values are examples; change them freely.
+
+_V0 Current HP
+$B200 00000001 00000000
+$0100 0010B9A0 000001F4
+
+_V0 Max HP
+$B200 00000001 00000000
+$0100 0010B9A4 000001F4
+
+_V0 Gitan
+$B200 00000001 00000000
+$0200 0010B9D4 000204D9
+
+_V0 EXP
+$B200 00000001 00000000
+$0200 0010B9BC 0000012D
+
+_V0 Current Strength
+$B200 00000001 00000000
+$0000 0010B9A8 00000063
+
+_V0 Max Strength
+$B200 00000001 00000000
+$0000 0010B9AC 00000063
+
+_V0 Current Fullness
+$B200 00000001 00000000
+$0100 0010B9B0 00009C40
+
+_V0 Max Fullness
+$B200 00000001 00000000
+$0100 0010B9B4 00009C40
+
+_V0 Point card
+$B200 80000001 00000000
+$0200 0010C280 00000024

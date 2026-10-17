@@ -1,0 +1,22 @@
+# ID: PCSG00840
+# Title: 信長の野望・創造 戦国立志伝
+# Region: JP
+# Version: 1.08
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1647216749 (>>299)
+# Note:
+
+_V0 Naitsu (bribe) always possible regardless of loyalty
+$B200 00000000 00000000
+$A100 00322FA6 0000BF00
+$A100 00322FB2 0000BF00
+$A100 00323060 0000BF00
+$A100 003230CC 0000BF00
+$A100 0032317A 0000BF00
+$A100 00323192 0000BF00
+$A100 003231A6 0000BF00
+$A100 0032BA90 0000E001
+$A100 0032BA7A 0000E00C
+$A100 0032B9DE 0000E040
+$A200 00322C92 30FFF05F

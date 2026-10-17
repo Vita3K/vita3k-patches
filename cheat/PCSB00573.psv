@@ -1,0 +1,22 @@
+# Title: Cel Damage HD
+# ID: PCSB00573
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10526548
+
+# PCSB00573
+
+_V0 inf.max HP
+$B200 00000001 0000BABE
+$3201 00165694 000000FC
+$0000 00000000 3F800000
+
+_V0 Able to Jump [push L]
+$B200 00000001 0000BABE
+$C201 00000001 00000100
+$3201 00165694 00000108
+$0000 00000000 41300000

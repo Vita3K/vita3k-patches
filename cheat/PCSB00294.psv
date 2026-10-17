@@ -1,0 +1,39 @@
+# Title: Ninja Gaiden Sigma 2 Plus
+# ID: PCSB00294
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Vita-Language: German
+# Reset Game: 10+
+# Code Author: tomberyx
+
+# PCSB00294
+
+_V0 Untouchable
+$0000 81D49270 00000001
+
+_V0 Speed Walk
+$0000 81D4840B 00000000
+
+_V0 Mega Jump
+$0000 81D48406 00000000
+
+_V0 Walk thru Walls [SEMI] only in Fight
+$0200 818CE8B1 00000000
+
+_V0 Giraffe-Neck [fun-code]
+$0200 81D45426 62363FA5
+
+_V0 Deformed-Player [fun-code]
+$0000 81D45566 00000000
+$0200 81D455B8 BF5B0FD0
+$0000 81D45622 00000000
+$0000 81D45662 00000000
+$0000 81D45672 0000000F
+
+_V0 3x Rings
+$0000 81D49202 00000001
+
+_V0 Freeze-Game [push L]
+$C201 00000001 00000100
+$A000 81D4190C 00000001

@@ -1,0 +1,27 @@
+# Title: Sparkle
+# ID: PCSE00295
+# Region: US
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Unknown
+# only for VitaCheat z06 and FW 3.65+
+# Note: [noaslr.skprx] Plugin
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10499185
+
+# PCSE00295
+
+_V0 Infinite Live
+$B200 00000001 00000000
+$0000 0020A1C4 00000005
+
+_V0 Chains x12
+$B200 00000001 00000000
+$0000 001FBFA4 0000000B
+
+_V0 Change Look 0-1
+$B200 00000001 00000000
+$0000 0023277D 00000001
+
+_V0 No Sphere
+$B200 00000001 00000000
+$0000 002011AC 00000000

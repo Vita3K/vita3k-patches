@@ -1,0 +1,35 @@
+# Title: Jetpack Joyride
+# ID: PCSB00244
+# Region: EU / US
+# Version: 1.02 / 1.04
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10514694
+
+# PCSB00244
+
+_V0 Untouchable
+$B200 00000001 0000BABE
+$3201 00004CA0 00000E58
+$0000 00000000 44200000
+
+_V0 inf.max Coins [Slot-Machine]
+$B200 00000001 0000BABE
+$0000 0000522C 00000007
+
+_V0 inf.max Money
+$B200 00000001 0000BABE
+$3201 000052B4 00000080
+$0000 00000000 000BDE31
+
+_V0 Push L-R to Fly [after Dead]
+$B200 00000001 0000BABE
+$C202 00000001 00000200
+$3201 00004CA0 00000E78
+$0000 00000000 40800000
+$B200 00000001 0000BABE
+$C202 00000001 00000100
+$3201 00004CA0 00000E78
+$0000 00000000 C0600000

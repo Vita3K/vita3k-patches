@@ -1,0 +1,18 @@
+# Title: Ultra Mission
+# ID: PCSB01480
+# Region: EU
+# Version: 1.00 & 1.01
+# Type: NoNpDrm
+# Code Author: tomberyx
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10572259
+
+# PCSB01480
+
+_V0 inf.Lives
+$B200 00000001 00000000
+$0000 001568F0 00000007
+
+_V0 max.Score
+$B200 00000001 00000000
+$0200 001568E4 00012FD1

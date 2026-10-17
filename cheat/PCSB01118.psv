@@ -1,0 +1,28 @@
+# Title: A Hole New World
+# ID: PCSB01118
+# Region: EU
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# only for VitaCheat z06 and FW 3.65+
+
+# PCSB01118
+
+_V0 inf.HP
+$B200 00000001 00000000
+$3004 00C3497C 00000014
+$0000 00000000 000001D8
+$0000 00000000 00000088
+$0000 00000000 000001FC
+$0000 00000000 00000006
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10071394
+
+_V0 Infinite HP
+$B200 00000001 00000000
+$3004 000004AC 0000798B
+$3000 00000000 000064D8
+$3000 00000000 000005A4
+$3000 00000000 0000083C
+$3300 00000000 00000005

@@ -1,0 +1,66 @@
+# ID: PCSF00191
+# Title: Ratchet and Clank: Qforce
+# Region: EUR
+# Version: 1.01
+# Type: NoNpDrm
+# Code Author: Demolinizer
+# Source: https://github.com/r0ah/vitacheat/blob/master/db/PCSF00191.psv
+# Original Source: https://github.com/r0ah/vitacheat/issues/27
+
+_V0 Infinite Combustor Ammo
+$0200 840772A0 43180000
+
+_V0 Infinite Buzzblades Ammo
+$0200 84077354 42E00000
+
+_V0 Infinite Ammo Cryoshot
+$0200 840772F0 42400000
+
+_V0 Infinite Ammo MR-Zurkon
+$0200 8407732C 42000000
+
+_V0 Infinite Ammo Sonic Eruptor
+$0200 84077368 41700000
+
+_V0 Infinite Warmonger Ammo
+$0200 840772C8 50700000
+
+_V0 Infinite Plasmabomb Launcher Ammo
+$0200 840772DC 50A00000
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9615988
+
+_V0   countdown time
+$B200 00000001 00000000
+$0200 0000C774 42B40000
+
+_V0  bolt
+$3203 81B85C88 00000EE0
+$3200 00000000 00000080
+$3200 00000000 00000024
+$3300 00000000 0000FB2E
+
+_V0 time
+$B200 00000001 00000000
+$0200 0000C784 41A00000
+
+_V0 money
+$B200 00000001 00000000
+$0200 01E3B62C 0000234D #
+$0200 01E3B630 0000234D #
+
+_V0 exp
+$B200 00000001 00000000
+$0200 01E3A388 00000980 #
+$0200 01E3A38C 00000980 #
+
+_V0 skill
+$B200 00000001 00000000
+$0200 01E3A3A0 00000100 #
+$0200 01E3A3A4 00000100 #
+
+_V0 level
+$B200 00000001 00000000
+$0200 01E3A398 00000004 #
+$0200 01E3A39C 00000004 #

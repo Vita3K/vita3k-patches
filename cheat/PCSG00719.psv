@@ -1,0 +1,83 @@
+# ID: PCSG00719
+# Title: GOD EATER RESURRECTION
+# Region: JP
+# Version: 1.30
+# Type: Unknown
+# Code Author: Unknown
+# Credits: https://wikiwiki.jp/pvcm/%E3%83%81%E3%83%BC%E3%83%88%E4%B8%80%E8%A6%A7
+# Source: https://github.com/r0ah/vitacheat/blob/master/db/PCSExxxxx.psv
+# Note: サーチ環境	h-encore2 3.74 vitacheat z06
+
+# お金 MAX
+_V0 Money MAX
+$0200 8890A400 05F5E0FF
+
+# GAP 999
+# ※MAX値から消費
+_V0 GAP MAX
+$0100 8891B41E 000003E7
+
+# 所持品 99個
+# ※戦闘中も99個
+_V0 Item Pouch All 99
+$4100 8890491A 00000063
+$0020 00000078 00000000
+
+# 倉庫アイテム 999個
+_V0 Item Souko 999
+$4100 8895F7D4 000003E7
+$03E7 00000078 00000000
+
+# HP減らない
+_V0 Inf HP
+$0200 889048EC 42C80000
+
+# OP減らない
+_V0 Inf OP
+$0200 889048F0 42C80000
+
+# ST減らない
+_V0 Inf ST
+$0200 889048F4 42C80000
+
+# 近接攻撃力+属性◎
+_V0 Melee
+$0200 889059BE 000003E8
+$0200 889059C0 000003E8
+$0200 889059C2 000003E8
+$0200 889059C4 00000002
+$0200 889059C6 00000002
+$0200 889059C8 00000002
+$0200 889059CA 00000002
+
+# 銃攻撃力+属性◎
+_V0 Gun
+$0200 88905A38 00001388
+$0200 88905A3A 00001388
+$0200 88905A3C 00000005
+$0200 88905A3E 00000005
+$0200 88905A40 00000005
+$0200 88905A42 00000005
+
+# 防御力+属性◎
+_V0 Shield
+$0200 88905AAE 000005DC
+$0200 88905AB0 000005DC
+$0200 88905AB2 000005DC
+$0200 88905AB4 00000004
+$0200 88905AB6 00000004
+$0200 88905AB8 00000004
+$0200 88905ABA 00000004
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+# ※ミッション制限時間固定
+#_V0 MISSION TIME STOP
+#$0100 88A344D8 00000xxx
+
+# ※値は秒数にしてください
+# 5分:0000012C(300)
+# 10分:00000258(600)
+# 30分:00000708(1800)
+# ※このコードを最初から使用するとミッションによっては追加のアラガミが来なかったり目的を達成してもミッション失敗になるものがあるので注意

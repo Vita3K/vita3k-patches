@@ -1,0 +1,22 @@
+# Title: Unknown
+# ID: PCSB01207
+# Region: PAL
+# Version: 1.0
+# Type: NoNpDrm?
+# Code Author: u/zartyfggh
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9615988
+
+# PCSB01207
+
+_V0 ammo
+$3201 819FFAE0 000000A8
+$3300 00000000 437A0000
+
+_V0 time(for time attack)
+$B200 00000001 00000000
+$0200 00007B70 4010E560
+$0200 00007BB0 C0B0E55F
+$0200 00007D94 3FA20C49
+$0200 00007DA4 3F5537FB
+$0200 00007DBC 4010E560
+$0200 00007DE0 3EDDE22D

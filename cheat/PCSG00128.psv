@@ -1,0 +1,20 @@
+# ID: PCSG00128
+# Title: スパイハンター
+# Region: JP
+# Version: Unknown
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1581709488 (>>164)
+# Note:
+
+_V0 Missile ammo fixed / no cooldown
+$3201 818606FC 00000BE0
+$3300 00000000 00000064
+$3201 818606FC 00000BD6
+$3300 00000000 0000B4C4
+
+_V0 Mine ammo fixed / no cooldown
+$3201 8186097C 00000DB0
+$3300 00000000 00000064
+$3201 8186097C 00000DA6
+$3300 00000000 0000B4C4

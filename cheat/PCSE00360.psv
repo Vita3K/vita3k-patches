@@ -1,0 +1,329 @@
+# Title: Disgaea 4 A Promise Revisited
+# ID: PCSE00360
+# Region: US
+# Version: 1.02
+# Type: NoNpDrm
+# Code Author: tomberyx
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10632131
+
+# PCSE00360
+
+_V0 [Main] Always Attack
+$B200 00000001 0000BABE
+$0200 0065C1A4 00000000
+$0200 006639A4 00000000
+$0200 00661424 00000000
+$0200 00658D24 00000000
+$0200 0065C924 00000000
+
+_V0 [Main] One Hit Kill
+$B200 00000001 0000BABE
+$0200 0024F678 0076ADF1
+
+_V0 [Main] Mega-Defense & Hit
+$B200 00000001 0000BABE
+$0200 0024F680 0076ADF1
+$0200 0024F698 0076ADF1
+
+_V0 [Main] max.Movement
+$B200 00000001 0000BABE
+$0200 0024FA50 10001000
+
+_V0 [Main] max.Attack-Range
+$B200 00000001 0000BABE
+$0200 0024FA60 00100000
+
+_V0 [Main] inf.max HP & SP
+$B200 00000001 0000BABE
+$0200 0024F618 0076ADF1
+$0200 0024F628 0076ADF1
+$0200 0024F620 0076ADF1
+$0200 0024F630 0076ADF1
+
+_V0 [Enemies] Instant-Kill [push Start]
+$B200 00000001 0000BABE
+$C201 00000001 00000008
+$4201 00096C08 00000000
+$0075 000021F8 00000000
+
+_V0 [Instant] Win-Stage [push Select]
+$B200 00000001 0000BABE
+$C201 00000002 00000001
+$0000 0038BBAA 00000001
+
+_V0 [Battle] max.Bonus [after Battle]
+$B200 00000001 0000BABE
+$0200 0038BB9C 00090064
+
+_V0 [all Players] One Hit Kill
+$B200 00000001 0000BABE
+$4201 0024F678 0076ADF1
+$001B 000021F8 00000000
+
+_V0 [all Players] inf.max HP & SP
+$B200 00000001 0000BABE
+$4201 0024F618 04A2CB71
+$001B 000021F8 00000000
+$4201 0024F628 04A2CB71
+$001B 000021F8 00000000
+$4201 0024F620 04A2CB71
+$001B 000021F8 00000000
+$4201 0024F630 04A2CB71
+$001B 000021F8 00000000
+
+_V0 [all Players] max.Movement
+$B200 00000001 0000BABE
+$4201 0024FA50 10001000
+$001B 000021F8 00000000
+$4201 0024F680 0076ADF1
+$001B 000021F8 00000000
+$4201 0024F698 0076ADF1
+$001B 000021F8 00000000
+
+_V0 [all Players] max.Attack-Range
+$B200 00000001 0000BABE
+$4201 0024FA60 00100000
+$001B 000021F8 00000000
+
+_V0 [all Players] inf.max Mana
+$B200 00000001 0000BABE
+$4201 0024F6A8 0076ADF1
+$001B 000021F8 00000000
+
+_V0 Hold X to Fly
+$B200 00000001 0000BABE
+$C201 00000000 00004000
+$0200 009A5C34 C0000000
+
+_V0 inf.max Money
+$B200 00000001 0000BABE
+$0200 0024E978 0076ADF1
+
+_V0 [Unlock] all Areas & Bonus
+$B200 00000001 0000BABE
+$4201 0024E1A4 FFFFFFFF
+$0008 00000004 00000000
+
+_V0 [Base] inf.Treasure-loot [hidden after take]
+$B200 00000001 0000BABE
+$4201 006069E0 40800000
+$0003 00000004 00000000
+$4201 00606C80 40800000
+$0003 00000004 00000000
+$4201 00606F20 40800000
+$0003 00000004 00000000
+$B200 00000001 0000BABE
+$4001 00669818 00000001
+$0003 00000780 00000000
+
+_V0 [Item-World] max.Weapon-Level [after Finish]
+$B200 00000001 0000BABE
+$0100 009A3F3C 0000012C
+
+_V0 [Main] Name-Changer [Tomberyx]
+$B200 00000001 0000BABE
+$0200 0024F118 626D6F54
+$0200 0024F11C 78797265
+$0200 0024F120 00000000
+$0200 0024F158 656D6147
+$0200 0024F16C 49694B2D
+$0200 0024F160 00726549
+$0200 0024F164 00000000
+$0200 0024F168 00000000
+
+_V0 MichaelWilliams1234 [go&find me]
+$0200 814A54D0 6863694D
+$0200 814A54D4 57496561
+$0200 814A54D8 696C6C69
+$0200 814A54DC 31736D61
+$0200 814A54E0 00343332
+
+_V0 [Unlock] all Characters [bug]
+$B200 00000001 0000BABE
+$0000 0038BB86 00000039
+
+_V0 [Main] One Hit Kill [Reduce]
+$B200 00000001 0000BABE
+$0200 0024F678 00000001
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8976321
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-8990349
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9008833
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9053790
+
+_V0 Infinite Dispatch
+$B200 00000001 00000000
+$0000 0038BBA4 0000000A
+
+_V0 Infinite HL
+$B200 00000001 00000000
+$0200 0024E978 4E729FFF
+$0200 0024E97C 00000918
+
+_V0 Bonus Gauge always lvl 9
+$B200 00000001 00000000
+$0000 0038BB9E 00000009
+
+_V0 Item Bag Slot 1 codes
+$0000 00000000 00000000
+
+_V0 Turn 1st Subdued Innocent into Unsubdued Innocent
+$B200 00000001 00000000
+$0000 003116EB 00000001
+
+_V0 Turn the first 2 Subdued Innocents into Unsubdued Innocents
+$B200 00000001 00000000
+$0000 003116EB 00000001
+$0000 003116F3 00000001
+
+_V0 Turn the first 3 Subdued Innocents into Unsubdued Innocents
+$B200 00000001 00000000
+$0000 003116EB 00000001
+$0000 003116F3 00000001
+$0000 003116FB 00000001
+
+_V0 Innocent type mod 1st slot
+$B200 00000001 00000000
+$0000 003116E8 00000000
+
+_V0 Innocent number mod 1st slot
+$B200 00000001 00000000
+$0100 003116E4 00000000
+
+_V0 Turn all Unsubdued Subdued Innocents into Subdued Innocents
+$B200 00000001 00000000
+$4201 003116EB 00000001
+$0008 00000008 00000000
+
+_V0 Innocent type mod v2 =FULL Slot=
+$B200 00000001 00000000
+$0000 003116E8 00000000 #1st slot
+$0000 003116F0 00000000 #2nd slot
+$0000 003116F8 00000000 #3rd slot
+$0000 00311700 00000000 #4th slot
+$0000 00311708 00000000 #5th slot
+$0000 00311710 00000000 #6th slot
+$0000 00311718 00000000 #7th slot
+$0000 00311720 00000000 #8th slot
+
+_V0 Innocent number mod v2 =FULL Slot=
+$B200 00000001 00000000
+$0100 003116E4 00000000 #1st slot
+$0100 003116EC 00000000 #2nd slot
+$0100 003116F4 00000000 #3rd slot
+$0100 003116FC 00000000 #4th slot
+$0100 00311704 00000000 #5th slot
+$0100 0031170C 00000000 #6th slot
+$0100 00311714 00000000 #7th slot
+$0100 0031171C 00000000 #8th slot
+
+_V0 Max Mana Character slot 1
+$B200 00000001 00000000
+$0200 0024F6A8 0098967F
+
+_V0 Max Mana Character slot 1-10 ALT
+$B200 00000001 00000000
+$4201 0024F6A8 0098967F
+$000A 000021F8 00000000
+
+_V0 Exp MOD character slot 1
+$B200 00000001 00000000
+$0200 0024EA30 00000000
+$0200 0024EA34 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Innocent type mod 1st slot
+#$B200 00000001 00000000
+#$0000 003116E8 000000xx
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Innocent type mod v2 =FULL Slot=
+#$B200 00000001 00000000
+#$0000 003116E8 000000xx #1st slot
+#$0000 003116F0 000000xx #2nd slot
+#$0000 003116F8 000000xx #3rd slot
+#$0000 00311700 000000xx #4th slot
+#$0000 00311708 000000xx #5th slot
+#$0000 00311710 000000xx #6th slot
+#$0000 00311718 000000xx #7th slot
+#$0000 00311720 000000xx #8th slot
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Innocent number mod 1st slot
+#$B200 00000001 00000000
+#$0100 003116E4 0000xxxx
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Innocent number mod v2 =FULL Slot=
+#$B200 00000001 00000000
+#$0100 003116E4 0000xxxx #1st slot
+#$0100 003116EC 0000xxxx #2nd slot
+#$0100 003116F4 0000xxxx #3rd slot
+#$0100 003116FC 0000xxxx #4th slot
+#$0100 00311704 0000xxxx #5th slot
+#$0100 0031170C 0000xxxx #6th slot
+#$0100 00311714 0000xxxx #7th slot
+#$0100 0031171C 0000xxxx #8th slot
+
+_V0 Max Mana Character All slots
+$B200 00000001 00000000
+$4201 0024F6A8 0098967F
+$004C 000021F8 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Exp mod 1st character slot
+#$B200 00000001 00000000
+#$0200 0024EA30 xxxxxxxx
+#$0200 0024EA34 000000xx
+
+_V0 Level 9999 1st character slot
+$B200 00000001 00000000
+$0200 0024EA30 FFFFFFFF
+$0200 0024EA34 00000030
+
+_V0 Level 9999 All characters     ==Need testing=
+$B200 00000001 00000000
+$4202 0024EA30 FFFFFFFF
+$0200 0024EA34 00000030
+$004C 000021F8 00000000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Rarity MOD Item bag slot 1
+#$B200 00000001 00000000
+#$0000 003117C6 000000xx
+
+_V0 Turn any item into a Legendary  ==Need testing=
+$B200 00000001 00000000
+$0000 003117AC 00000063 #Number of Item World Floors you can travel
+$0200 003117B0 03000003 #Number of bills you can pass
+$0000 003117C6 00000000 #Rarity
+$0000 003117C9 00000006 #Population
+$0000 003117D2 00000002 #Item rank symbol
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Infinite Turns
+#$B200 00000001 00000000
+#$0000 0038BB94 000000xx
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Item World Floor mod
+#$B200 00000001 00000000
+#$0000 0038BFD8 000000xx

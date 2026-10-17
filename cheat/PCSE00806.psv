@@ -1,0 +1,44 @@
+# Title: Crypt of the NecroDancer
+# ID: PCSE00806
+# Region: US
+# Version: 1.00  <--------------------------
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10330781
+
+# PCSE00806
+
+_V0 Untouchable
+$B200 00000001 0000BABE
+$3201 000364A4 00000148
+$0000 00000000 00000100
+
+_V0 Instant Gigant
+$B200 00000001 0000BABE
+$3201 000364A4 0000013C
+$0000 00000000 00000200
+
+_V0 inf.Hearts
+$B200 00000001 0000BABE
+$3001 000364A4 0000016C
+$0000 00000000 00000014
+
+_V0 max.Hearts
+$B200 00000001 0000BABE
+$3001 000364A4 00000168
+$0000 00000000 00000014
+
+_V0 inf.max Bombs
+$B200 00000001 0000BABE
+$3001 000364A4 000001C0
+$0000 00000000 00000007
+
+_V0 inf.max Diamonds
+$B200 00000001 0000BABE
+$0000 00036394 0000004D
+
+_V0 inf.max Coins [Anti-Cheat-Hint]
+$B200 00000001 00000000
+$0000 00036374 0000004D

@@ -1,0 +1,18 @@
+# Title: Russian Subway Dogs
+# ID: PCSE01226
+# Region: US
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Note: [noaslr.skprx] Plugin
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10314945
+
+# PCSE01226
+
+_V0 Freeze-Time
+$B200 00000001 00000000
+$3203 00003B1C 000006B0
+$0000 00000000 00000AB4
+$0000 00000000 00000004
+$0000 00000000 3F800000

@@ -1,0 +1,24 @@
+# Title: Xeno Crisis  (test-code)
+# ID: PCSG01326
+# Region: Jap
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# Vita-Language: German
+# Reset Game: 2+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9213383
+
+# PCSG01326
+
+_V0 KickAss-Code
+$B200 00000001 00000000
+$0100 027EC5E8 000003E7
+$0100 027EBB68 000003E8
+$0100 027EBB54 000003E7
+$0100 027EC5D4 000003E8
+$0100 027EC5F0 000003E7
+$0100 027EBB70 000003E8
+$0100 0255BC80 00000063
+$0100 0255BC20 00000063
+$0100 0255D780 00000063
+$0100 0255BCE0 00000063

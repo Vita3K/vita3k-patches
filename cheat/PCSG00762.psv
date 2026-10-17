@@ -1,0 +1,68 @@
+# Title: Attack on Titan
+# ID: PCSG00762
+# Region: JPN
+# Version: 1.03
+# Type: PKGj
+# Code Author: ネオ•グランゾン(NeoGranzon)
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9864287
+
+# PCSG00762
+
+_V0 Inf Money
+$0200 8BC63BB8 3B9AC9FF
+$0200 8BB63BB8 3B9AC9FF
+
+_V0 Inf Item Battle
+$4001 8BBC2564 00000063
+$0006 00000002 00000000
+$4001 8BCC2564 00000063
+$0006 00000002 00000000
+
+_V0 All Materials
+$4101 8BB99824 000003E7
+$0050 00000030 00000000
+$4101 8BC99824 000003E7
+$0050 00000030 00000000
+
+_V0 99 Subjugate Titan
+$0200 8BCC43F4 00000063
+$0200 8BCC43F8 00000063
+$0200 8BBC43F4 00000063
+$0200 8BBC43F8 00000063
+
+_V0 Base Subjugation Special Reward
+$4201 8BF94B08 05F5E0FF
+$0003 00000014 00000000
+$4201 8C094B08 05F5E0FF
+$0003 00000014 00000000
+
+_V0 Always 99 Medals
+$4001 8BF94B44 00000063
+$0003 00000014 00000000
+$4001 8C094B44 00000063
+$0003 00000014 00000000
+
+_V0 Medal and Total Rewards
+$4201 8BF94B80 05F5E0FF
+$0002 00000014 00000000
+$4201 8C094B80 05F5E0FF
+$0002 00000014 00000000
+
+_V0 Total Rating
+$4201 8BF94560 05F5E0FF
+$0004 00000014 00000000
+$4201 8C094560 05F5E0FF
+$0004 00000014 00000000
+
+_V0 Mission Completed
+$0000 8BF94524 00000007
+$0000 8C094524 00000007
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10766000
+
+# Placeholder cheat: the code below still contains a value you have to
+# fill in yourself, so it is kept out of cheat.db. Replace the
+# placeholder and remove the leading '#' to enable it.
+#_V0 Base Subjugation Special Reward
+#$4201 8BF94B08 05F5E0FF...

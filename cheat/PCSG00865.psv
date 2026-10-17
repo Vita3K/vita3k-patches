@@ -1,0 +1,20 @@
+# Title: Idol Death Game TV
+# ID: PCSG00865
+# Region: Jap
+# Version: 1.02
+# Type: NoNpDrm
+# Code Author: tomberyx
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10605911
+
+# PCSG00865
+
+_V0 inf.max Coin
+$B200 00000001 0000BABE
+$3201 0005B198 000016AC
+$0000 00000000 00012FD1
+
+_V0 inf.max Fan
+$B200 00000001 0000BABE
+$3201 0005B198 000016B0
+$0000 00000000 00012FD1

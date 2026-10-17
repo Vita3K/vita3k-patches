@@ -1,0 +1,24 @@
+# ID: PCSG00202
+# Title: ダンガンロンパ1・2 Reload
+# Region: JP
+# Version: 1.01
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1581709488 (>>845)
+# Note: Danganronpa 1 side.
+
+_V0 Event gallery unlocked
+$4000 8133A4D4 00000003
+$0095 00000001 00000000
+
+_V0 Movie gallery unlocked
+$4000 8133A56C 00000003
+$001F 00000001 00000000
+
+_V0 Artwork gallery unlocked
+$4000 8133A58F 00000003
+$0055 00000001 00000000
+
+_V0 Sound gallery unlocked
+$4000 8133A5E8 00000003
+$0025 00000001 00000000

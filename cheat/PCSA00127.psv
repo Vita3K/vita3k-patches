@@ -1,0 +1,35 @@
+# Title: Malicious Rebirth
+# ID: PCSA00127
+# Region: US
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Based on the code tomberyx
+# only for VitaCheat z06 and FW 3.65+
+# Note: [noaslr.skprx] Plugin
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10090667
+
+# PCSA00127
+
+_V0 Untouchable
+$B200 00000001 00000000
+$3202 00000384 00000020
+$3200 00000000 000013F8
+$3300 00000000 00000000
+
+_V0 Infinite HP
+$B200 00000001 00000000
+$3202 00000384 00000020
+$3200 00000000 000003B8
+$3300 00000000 01F401F4
+
+_V0 Infinite Aura
+$B200 00000001 00000000
+$3202 00000384 00000020
+$3200 00000000 00000968
+$3300 00000000 45F30800
+
+_V0 Infinite Jump
+$B200 00000001 00000000
+$3202 00000384 00000020
+$3200 00000000 00000980
+$3300 00000000 00000000

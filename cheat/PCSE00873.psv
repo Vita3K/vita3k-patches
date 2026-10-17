@@ -1,0 +1,15 @@
+# Title: Downwell
+# ID: PCSE00873
+# Region: USA
+# Version: USA 3rd
+# Type: NoNpDrm
+# Code Author: Wet_Cardboard_Box
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9551435
+
+# PCSE00873
+
+_V0 Infinite HP
+$0200 845FF294 40A00000
+
+_V0 Infinite Gems
+$0200 845FF4F4 40B01111

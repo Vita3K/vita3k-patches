@@ -1,0 +1,30 @@
+# Title: Hyperdimension Neptunia PP Producing Perfection
+# ID: PCSB00515
+# Region: EU / US
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: tomberyx
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10598635
+
+# PCSB00515
+
+_V0 max.MAX-Glee 200% [push Select]
+$B200 00000001 0000BABE
+$C201 00000001 00000001
+$0200 00221848 4797E880
+
+_V0 No-Stress
+$B200 00000001 0000BABE
+$0000 0024AD7C 00000000
+
+_V0 max.Guts 100%
+$B200 00000001 0000BABE
+$0000 0024AD7A 00000064
+
+_V0 max.Status
+$B200 00000001 0000BABE
+$0200 0024AD70 03090309
+$0200 0024AD74 03090309
+$0100 0024AD78 00000309
+$0000 0024AD7C 00000000

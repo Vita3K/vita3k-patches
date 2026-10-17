@@ -1,0 +1,36 @@
+# ID: PCSG00199
+# Title: うた組み575
+# Region: JP
+# Version: 1.01
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1581709488 (>>115, >>140, >>144)
+# Note: The "Auto play" code is a port of a Vitamin-era code (untested).
+#       "Chou Daiseikyou" forces a full combo and zero misses, which are
+#       the conditions for the highest rank; play the song to the end.
+
+_V0 Score 9999
+$0200 81B20B80 0000270F
+
+_V0 Auto play
+$A200 810E60F4 20FF20FF
+
+_V0 Chou Daiseikyou (full combo / no miss)
+$B200 00000001 00000000
+$3201 00000788 00000024
+$3300 00000000 00000000
+$B200 00000001 00000000
+$3201 00000788 00000028
+$3300 00000000 00000000
+$B200 00000001 00000000
+$3201 00000788 0000002C
+$3300 00000000 00000000
+$B200 00000001 00000000
+$3201 00000788 00000038
+$3300 00000000 000000FF
+$B200 00000001 00000000
+$3201 00000788 00000014
+$3300 00000000 00000000
+$B200 00000001 00000000
+$3201 00000788 00000018
+$3300 00000000 00000000

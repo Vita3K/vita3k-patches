@@ -1,0 +1,28 @@
+# ID: PCSG01195
+# Title: GOD WARS 日本神話大戦
+# Region: JP
+# Version: Unknown
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1610183635 (>>617)
+# Note: Partial set - the poster only managed these. The character codes
+#       are per-unit fixed addresses and may not survive party changes.
+
+_V0 Money
+$0200 85D7F85C 0089A8F8
+
+_V0 Sakuya - Houjutsu
+$0200 8A106348 00009902
+
+_V0 Ookuninushi - Bushin
+$0200 8A101550 00009968
+
+_V0 Hanasaka - Hana
+$0200 8A103B20 00009995
+
+_V0 Sakuya - MP
+$0200 8A03AB1C 00009030
+
+_V1 Sakuya
+$0200 40000F4B 00000032
+$0200 40DF0011 00000000

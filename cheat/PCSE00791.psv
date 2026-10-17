@@ -1,0 +1,37 @@
+# ID: PCSE00791
+# Title: LEGO Star Wars: The Force Awakens
+# Region: USA
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Smoker1
+# Source: https://github.com/r0ah/vitacheat/blob/master/db/PCSE00791.psv
+# Original Source: https://github.com/ShumnoT/VitaCheatDatabase/blob/master/PCSE00791.psv
+
+_V0 99999999 LEGO Studs
+$3201 816D0608 00000688
+$3300 00000000 00989676
+
+_V0 Inf Health P1-1
+$3201 836F868C 0000007C
+$3300 00000000 0000007D
+
+_V0 Inf Health P1-2- Please Check
+$0200 836FA7FC 0000007D
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10095414
+
+_V0 Infinite Studs
+$B200 00000001 00000000
+$3202 000000A8 000003BC
+$0000 00000000 00000F00
+$0000 00000000 0076ADF1
+
+_V0 Infinite HP
+$B200 00000001 00000000
+$3202 000009D4 00000010
+$0000 00000000 0000012C
+$0000 00000000 0000007D
+$3202 000009D4 00000010
+$0000 00000000 000021FC
+$0000 00000000 0000007D

@@ -1,0 +1,14 @@
+# Title: Croixleur Sigma
+# ID: PCSE00689
+# Region: US
+# Version: 1.00
+# Type: NoNpDrm
+# Code Author: Unknown
+# only for VitaCheat z06 and FW 3.65+
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10105781
+
+# PCSE00689
+
+_V0 Silver max
+$B200 00000001 00000000
+$0200 0002B17C 00016890

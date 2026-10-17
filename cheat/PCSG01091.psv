@@ -1,0 +1,36 @@
+# ID: PCSG01091
+# Title: Fate/EXTELLA LINK
+# Region: JP
+# Version: 1.07
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1538799174 (>>432)
+# Note:
+
+_V0 QP Max on gain
+$B200 00000000 00000000
+$A100 003D366E 0000BF00
+
+_V0 Mystic code materials Max on result screen
+$B200 00000000 00000000
+$A100 003D3470 0000BF00
+
+_V0 Sortie count Max in one sortie
+$B200 00000000 00000000
+$A100 003D7142 0000BF00
+
+_V0 KO count Max on gain
+$B200 00000000 00000000
+$A100 002728D2 0000BF00
+
+_V0 EXP Max on gain in battle
+$B200 00000000 00000000
+$A100 0027242E 0000BF00
+
+_V0 Combo count Max on gain
+$B200 00000000 00000000
+$A100 0027294A 0000BF00
+
+_V0 Bond Lv Max (may stop bond events from firing)
+$B200 00000000 00000000
+$A100 003D0EFC 0000BF00

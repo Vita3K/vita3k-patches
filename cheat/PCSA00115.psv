@@ -1,0 +1,17 @@
+# Title: MLB 14 The Show
+# ID: PCSA00115
+# Region: USA/EUR/AUS
+# Version: 1.02
+# Type: VitaCheats
+# Code Author: AneuryAlfonzo
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10214578
+
+# PCSA00115
+
+_V0 Hold R To Walk
+$C202 00000001 00000200
+$A100 8126DBCA 0000E000
+$A100 8126D94A 0000E140
+
+_V0 Max Training Points RTTS
+$0200 82A7AFB4 0001869F

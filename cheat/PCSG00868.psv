@@ -1,0 +1,28 @@
+# ID: PCSG00868
+# Title: ソードアート・オンライン -ホロウ・リアリゼーション-
+# Region: JP
+# Version: 3.22
+# Type: Unknown
+# Code Author: Unknown
+# Credits: https://wikiwiki.jp/pvcm/%E3%83%81%E3%83%BC%E3%83%88%E4%B8%80%E8%A6%A7
+# Source: https://github.com/r0ah/vitacheat/blob/master/db/PCSExxxxx.psv
+# Note:
+
+_V0 Skill Point 999
+$B200 00000001 00000000
+$0100 0007886C 000003E7
+
+_V0 SKILL-LV MAX
+$B200 00000001 00000000
+$4100 0007886A 00002710
+$0018 0000000C 00000000
+
+_V0 SS Mastery 5000
+$B200 00000001 00000000
+$4100 00078C0C 00001388
+$0106 0000000C 00000000
+
+_V0 SSマスタリーMAX
+$B200 00000001 00000000
+$4100 00078C0C 0000C350
+$0106 0000000C 00000000

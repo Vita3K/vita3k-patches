@@ -1,0 +1,26 @@
+# Title: Dynasty Warriors 8 Xtreme Legends Complete Edition / Dynasty Warriors 8 XL
+# ID: PCSE00405
+# Region: US
+# Version: 1.01
+# Type: NoNpDrm
+# Code Author: Unknown
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-10086057
+
+# PCSE00405
+
+_V0 Max Gold
+$B200 00000001 00000000
+$0200 03D19124 0098967F
+
+_V0 Max Gem
+$B200 00000001 00000000
+$0100 03D1AD62 0000270F
+$0100 0628978C 0000270F
+
+_V0 Max Weapon Material
+$B200 00000001 00000000
+$0100 03D9B686 0000270F
+
+_V0 Max Facility Material
+$B200 00000001 00000000
+$0100 03D9B684 0000270F

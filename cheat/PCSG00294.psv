@@ -1,0 +1,13 @@
+# ID: PCSG00294
+# Title: ソードアート・オンライン －ホロウ・フラグメント－
+# Region: JP
+# Version: 1.07
+# Type: Unknown
+# Code Author: Unknown
+# Source: https://medaka.5ch.net/test/read.cgi/gameurawaza/1647216749 (>>203)
+# Note:
+
+_V0 Money Max (on change)
+$B200 00000000 00000000
+$A100 001A8A46 0000BF00
+$A100 001A8B56 0000BF00

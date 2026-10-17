@@ -1,0 +1,57 @@
+# Title: Coven and Labyrinth of Galleria
+# ID: PCSG01246
+# Region: Jap
+# Version: 1.06
+# Type: NoNpDrm
+# Code Author: tomberyx
+# only for VitaCheat z06 and FW 3.65+
+
+# PCSG01246
+
+_V0 inf.HP & DP [all Players]
+$B200 00000001 00000000
+$7201 000ED4AC 00001F50
+$7701 00000000 00012FD1
+$0005 00000B20 00000000
+$B200 00000001 00000000
+$7201 000ED4AC 00001F54
+$7701 00000000 00001E61
+$0005 00000B20 00000000
+
+_V0 max.Level [after Fight]
+$B200 00000001 00000000
+$3201 000ED4AC 00000A60
+$0000 00000000 00A98AC7
+
+_V0 inf.max Money
+$B200 00000001 00000000
+$3201 000ED4AC 00000A00
+$0000 00000000 000BDE31
+
+_V0 inf.max Mana
+$B200 00000001 00000000
+$3201 000ED4AC 00000A0C
+$0000 00000000 000BDE31
+
+_V0 Set Mana in Dungeon [change FF]
+$B200 00000001 00000000
+$3201 000ED4AC 00000A08
+$0000 00000000 000000FF
+
+# --- Added from the GBAtemp VitaCheat/FinalCheat Database thread ---
+# Source: https://gbatemp.net/threads/vitacheat-finalcheat-database.485343/post-9279553
+
+_V0 max.Money
+$0200 82588E10 0076ADF1
+
+_V0 max.Mana
+$0200 82588E1C 0065B9AA
+
+_V0 inf.Mana-Dungeon
+$0100 82588E18 00001E61
+
+_V0 max.Level after Fight
+$0200 82588E70 000F423F
+
+_V0 max.Reinforce
+$0100 82588E28 000003E7

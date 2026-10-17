@@ -1,0 +1,60 @@
+# Title: Vasara Collection
+# ID: PCSE01314
+# Region: USA
+# Version: 1.02
+# Type: PSN/NoNpDrm
+# Code Author: eighthdayregret
+# Source: https://eighthsregrets.blogspot.com/2019/09/pcse01314-vasara-collection-psnnonpdrm.html
+# Info: Tested and confirmed working with PSN EBOOT on 3.68 h-encore-2
+# Notes: Activate Character Select and Stage Select codes at the character select screen
+
+# PCSE01314
+
+_V0 * VASARA 1 CODES *
+$0000 00000000 00000000
+
+_V0 Invincibility
+$0000 86300C62 00000002
+
+_V0 Inf Lives
+$0000 86300C5A 00000005
+
+_V0 Inf Bombs
+$0000 86300C5B 00000005
+
+_V0 Max Shot Power
+$0000 86300C5E 00000004
+
+_V0 Always in Vasara Mode
+$0000 86302EF2 000000FF
+$0000 86302EF6 0000006A
+
+_V0 Always Max Slash
+$0000 86300CA8 00000027
+
+_V0 Stage Select
+$0000 86302EC2 00000000
+
+_V0 * VASARA 2 CODES *
+$0000 00000000 00000000
+
+_V0 Invincibility
+$0000 86300E68 00000002
+
+_V0 Inf Lives
+$0000 86300E60 00000006
+
+_V0 Inf Bombs
+$0000 86300E61 00000003
+
+_V0 Max Shot Power
+$0000 86300E64 00000004
+
+_V0 Always Max Slash
+$0100 86300EAB 000003E7
+
+_V0 Character Select
+$0000 86300FD9 00000000
+
+_V0 Stage Select
+$0000 863058F2 00000000
