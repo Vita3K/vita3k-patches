@@ -1,0 +1,38 @@
+name: Check PSV format
+
+on:
+  push:
+    paths:
+      - 'cheat/**.psv'
+      - '.github/scripts/validate_psv.py'
+      - '.github/workflows/check_psv.yml'
+  pull_request:
+    paths:
+      - 'cheat/**.psv'
+      - '.github/scripts/validate_psv.py'
+      - '.github/workflows/check_psv.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Validate PSV format
+        run: |
+          set -euo pipefail
+          # Every .psv file is checked, not just the ones a pull request touches,
+          # so pre-existing problems stay visible as annotations.
+          find cheat -name '*.psv' -print0 \
+            | xargs -0 python .github/scripts/validate_psv.py
