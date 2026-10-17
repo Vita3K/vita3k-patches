@@ -51,7 +51,7 @@
 						PatchVer="1.0"
 						AppVer="1.02"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x3B514F80">
 		<PatchList>
 			<Line Type="bytes" Address="0x176F8A" Value="0x0120"/>
 		</PatchList>
@@ -85,7 +85,7 @@
 						PatchVer="1.0"
 						AppVer="1.01"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0xD3BDB4F5">
 		<PatchList>
 			<Line Type="bytes" Address="0x12582" Value="0x0120"/>
 			<Line Type="bytes" Address="0x12814" Value="F7EE000A"/>
@@ -121,7 +121,7 @@
 						PatchVer="1.0"
 						AppVer="1.01"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x4AAABD3D">
 		<PatchList>
 			<Line Type="bytes" Address="0xA95C" Value="0x0120"/>
 			<Line Type="bytes" Address="0xAABA" Value="F7EE000A"/>
@@ -139,7 +139,7 @@
 						PatchVer="1.0"
 						AppVer="1.00"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0xCAF82C1B">
 		<PatchList>
 			<Line Type="bytes" Address="0x39240" Value="0x0120"/>
 			<Line Type="bytes" Address="0x3996E" Value="F7EE000A"/>
@@ -157,7 +157,7 @@
 						PatchVer="1.0"
 						AppVer="1.00"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x89B603C7">
 		<PatchList>
 			<Line Type="bytes" Address="0x186F4" Value="010000E3"/>
 		</PatchList>
@@ -225,7 +225,7 @@
 						PatchVer="1.0"
 						AppVer="1.01"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x657F506B">
 		<PatchList>
 			<Line Type="bytes" Address="0x72189C" Value="a1_mov(0, 0, 1)"/>
 		</PatchList>
@@ -242,7 +242,7 @@
 						PatchVer="1.0"
 						AppVer="1.02"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x0104460F">
 		<PatchList>
 			<Line Type="bytes" Address="0x3225CA" Value="0x0120"/>
 		</PatchList>
@@ -259,7 +259,7 @@
 						PatchVer="1.0"
 						AppVer="1.00"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x2A0BE571">
 		<PatchList>
 			<Line Type="bytes" Address="0x4E384" Value="0x0120"/>
 			<Line Type="bytes" Address="0x4E4E0" Value="F7EE000A"/>
@@ -380,7 +380,7 @@
 						PatchVer="1.0"
 						AppVer="1.00"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x8C503A79">
 		<PatchList>
 			<Line Type="bytes" Address="0x243E94" Value="0x00BF"/>
 		</PatchList>
@@ -413,7 +413,7 @@
 						PatchVer="1.0"
 						AppVer="1.00"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x88F8E42C">
 		<PatchList>
 			<Line Type="bytes" Address="0x1175DC" Value="0x0120"/>
 		</PatchList>
@@ -430,7 +430,7 @@
 						PatchVer="1.0"
 						AppVer="1.00"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x86F56009">
 		<PatchList>
 			<Line Type="bytes" Address="0x65EE34" Value="a1_mov(0, 0, 1)"/>
 		</PatchList>
@@ -647,7 +647,7 @@
 						PatchVer="1.0"
 						AppVer="1.00"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0xF0C9262A">
 		<PatchList>
 			<Line Type="bytes" Address="0x2CD960" Value="0x0120"/>
 		</PatchList>
@@ -682,7 +682,7 @@
 						PatchVer="1.0"
 						AppVer="1.04"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0xD4C31BD2">
 		<PatchList>
 			<Line Type="bytes" Address="0x2F5D0A" Value="FCF022E8 12E0"/>
 			<Line Type="bytes" Address="0x2F5D4A" Value="8042"/>
@@ -718,7 +718,7 @@
 						PatchVer="1.0"
 						AppVer="1.02"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0xC2D25375">
 		<PatchList>
 			<Line Type="bytes" Address="0x285FD0" Value="0x0120"/>
 		</PatchList>
@@ -786,7 +786,7 @@
 						PatchVer="1.0"
 						AppVer="1.00"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0xA438ECD8">
 		<PatchList>
 			<Line Type="bytes" Address="0x0F8614" Value="0x0120"/>
 		</PatchList>
@@ -801,7 +801,7 @@
 						PatchVer="1.0"
 						AppVer="1.00"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0xE1DE7FC2">
 		<PatchList>
 			<Line Type="bytes" Address="0x1025DC" Value="0x0120"/>
 		</PatchList>
@@ -867,7 +867,7 @@
 						PatchVer="1.0"
 						AppVer="1.07"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0xE7F6BFF4">
 		<PatchList>
 			<Line Type="bytes" Address="0x03A048" Value="0x0120"/>
 		</PatchList>
@@ -900,7 +900,7 @@
 						PatchVer="1.0"
 						AppVer="1.03"
 						AppElf="eboot.bin"
-						NID="">
+						NID="0x46A544CF">
 		<PatchList>
 			<Line Type="bytes" Address="0x3B8C38" Value="0x0120"/>
 		</PatchList>
