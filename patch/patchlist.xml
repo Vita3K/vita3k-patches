@@ -271,18 +271,6 @@
 		<ID>PCSE01274</ID>
 	</TitleID>
 	<Metadata Title="Persona 3 Dancing"
-						Name="Auto play"
-						Author=""
-						Note=""
-						PatchVer="1.0"
-						AppVer="1.00"
-						AppElf="eboot.bin"
-						NID="">
-		<PatchList>
-			<Line Type="bytes" Address="0x11BD70" Value="0x00BF"/>
-		</PatchList>
-	</Metadata>
-	<Metadata Title="Persona 3 Dancing"
 						Name="Intro skip"
 						Author=""
 						Note=""
@@ -300,18 +288,6 @@
 		<ID>PCSE00764</ID>
 	</TitleID>
 	<Metadata Title="Persona 4 Dancing"
-						Name="Auto play"
-						Author=""
-						Note=""
-						PatchVer="1.0"
-						AppVer="1.01"
-						AppElf="eboot.bin"
-						NID="">
-		<PatchList>
-			<Line Type="bytes" Address="0xA9A0C" Value="0x00BF"/>
-		</PatchList>
-	</Metadata>
-	<Metadata Title="Persona 4 Dancing"
 						Name="Intro skip"
 						Author=""
 						Note=""
@@ -328,18 +304,6 @@
 	<TitleID>
 		<ID>PCSE01275</ID>
 	</TitleID>
-	<Metadata Title="Persona 5 Dancing"
-						Name="Auto play"
-						Author=""
-						Note=""
-						PatchVer="1.0"
-						AppVer="1.00"
-						AppElf="eboot.bin"
-						NID="">
-		<PatchList>
-			<Line Type="bytes" Address="0x11E910" Value="0x00BF"/>
-		</PatchList>
-	</Metadata>
 	<Metadata Title="Persona 5 Dancing"
 						Name="Intro skip"
 						Author=""
