@@ -91,6 +91,19 @@
 			<Line Type="bytes" Address="0x12814" Value="F7EE000A"/>
 		</PatchList>
 	</Metadata>
+	<Metadata Title="Hatsune Miku: Project Diva f"
+						Name="Skip intro"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.01"
+						AppElf="eboot.bin"
+						NID="0xD3BDB4F5">
+		<PatchList>
+			<Line Type="bytes" Address="0x1FE52A" Value="01207047"/>
+			<Line Type="bytes" Address="0xF6" Value="3CE0"/>
+		</PatchList>
+	</Metadata>
 
 	<!-- Hatsune Miku: Project Diva F 2nd -->
 	<TitleID>
@@ -127,6 +140,20 @@
 			<Line Type="bytes" Address="0xAABA" Value="F7EE000A"/>
 		</PatchList>
 	</Metadata>
+	<Metadata Title="Hatsune Miku: Project Diva F 2nd"
+						Name="Skip intro"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.01"
+						AppElf="eboot.bin"
+						NID="0x4AAABD3D">
+		<PatchList>
+			<Line Type="bytes" Address="0x29EB2A" Value="01207047"/>
+			<Line Type="bytes" Address="0x479000" Value="21E0"/>
+			<Line Type="bytes" Address="0x479048" Value="0A21"/>
+		</PatchList>
+	</Metadata>
 
 	<!-- Hatsune Miku: Project Diva X -->
 	<TitleID>
@@ -143,6 +170,21 @@
 		<PatchList>
 			<Line Type="bytes" Address="0x39240" Value="0x0120"/>
 			<Line Type="bytes" Address="0x3996E" Value="F7EE000A"/>
+		</PatchList>
+	</Metadata>
+	<Metadata Title="Hatsune Miku: Project Diva X"
+						Name="Skip intro"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="0xCAF82C1B">
+		<PatchList>
+			<Line Type="bytes" Address="0x1175C0" Value="0020"/>
+			<Line Type="bytes" Address="0x1B6D60" Value="2EE0"/>
+			<Line Type="bytes" Address="0x1B6DC0" Value="0A20"/>
+			<Line Type="bytes" Address="0x1B6DD0" Value="0A20"/>
 		</PatchList>
 	</Metadata>
 
@@ -883,6 +925,23 @@
 						NID="">
 		<PatchList>
 			<Line Type="bytes" Address="0x3B8C38" Value="0x0120"/>
+		</PatchList>
+	</Metadata>
+
+	<!-- Soul Sacrifice -->
+	<TitleID>
+		<ID>PCSC00039</ID>
+	</TitleID>
+	<Metadata Title="Soul Sacrifice"
+						Name="Skip intro"
+						Author=""
+						Note=""
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="0x106A7FAE">
+		<PatchList>
+			<Line Type="bytes" Address="0xC7518" Value="B3EE0F8A"/>
 		</PatchList>
 	</Metadata>
 
