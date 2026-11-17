@@ -694,6 +694,21 @@
 			<Line Type="bytes" Address="0x2F5D4A" Value="8042"/>
 		</PatchList>
 	</Metadata>
+	<TitleID>
+		<ID>PCSA00015</ID>
+	</TitleID>
+	<Metadata Title="Wipeout 2048"
+						Name="60FPS"
+						Author="KvFxKaido"
+						Note="Base game without the update"
+						PatchVer="1.0"
+						AppVer="1.00"
+						AppElf="eboot.bin"
+						NID="0x5063D7C9">
+		<PatchList>
+			<Line Type="bytes" Address="0x2EC2EE" Value="07E0"/>
+		</PatchList>
+	</Metadata>
 
 	<!-- Ys VIII: Lacrimosa of Dana (EU/US) -->
 	<TitleID>
